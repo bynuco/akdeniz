@@ -263,7 +263,7 @@ header nav.menu ul.navbar-right li:last-of-type {
 section.slider {
   position: relative;
   background-size: cover;
-  height: 741px;
+  height: 732px;
 }
 section.slider .swiper-container {
   width: 100%;
@@ -284,7 +284,7 @@ section.slider .swiper-slide {
 section.slider .swiper-slide img {
   width: 100%;
   max-width: 1920px;
-  height: 740px;
+  height: 731px;
 }
 section.slider .swiper-button-prev, section.slider .swiper-button-next {
   display: block;

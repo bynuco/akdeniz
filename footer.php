@@ -40,7 +40,7 @@
         </li>
     </ul>
 
-    <p class="text-white"><a class="text-dark" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a></p>
+    <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a></p>
 </section>
 
 

@@ -333,9 +333,10 @@ header {
 
 
 section.slider {
+    $sliderHeight: 731px;
     position: relative;
     background-size: cover;
-    height: 741px;
+    height: $sliderHeight +1;
 
     .swiper-container {
         width: 100%;
@@ -358,14 +359,14 @@ section.slider {
         img {
             width: 100%;
             max-width: 1920px;
-            height: 740px;
+            height: $sliderHeight;
         }
     }
 
     .swiper-button-prev, .swiper-button-next {
         display: block;
         width: 120px;
-        background-color: rgba(0,0,0,0.4);
+        background-color: rgba(0, 0, 0, 0.4);
         padding: 30px;
     }
 
