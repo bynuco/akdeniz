@@ -71,10 +71,9 @@ header .header_bg .header {
   padding: 1% 0;
 }
 header .header_bg .header img.logo {
-  height: 100px;
+  height: auto;
 }
 header .header_bg .header .h_search {
-  width: 30%;
   position: relative;
   margin-top: 2%;
 }
@@ -378,7 +377,7 @@ section.news .duyurular .title {
 section.news .duyurular .haber {
   background-color: white;
   padding: 15px 10px;
-  height: 52px;
+  min-height: 56px;
   border: 1px solid rgba(23, 162, 184, 0.2);
   margin-bottom: 2px;
 }
@@ -404,7 +403,7 @@ section.news .etkinlikler .title .badge-dark {
 }
 section.news .etkinlikler .etkinlik {
   width: auto;
-  height: 52px;
+  min-height: 56px;
   background-color: white !important;
   border: 1px solid rgba(175, 23, 48, 0.2);
   margin-bottom: 2px;
@@ -554,6 +553,61 @@ section.social-media ul.social li:hover i {
 }
 .nco-single .nco-content {
   font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  header .top #menu-top-menu {
+    display: none;
+  }
+  header .header {
+    clear: both;
+  }
+  header .header img.logo {
+    width: 100%;
+  }
+  header .header .h_search {
+    float: left;
+    width: 100%;
+  }
+  header .header .h_search form {
+    margin-bottom: 20px;
+  }
+  header .header .h_search form input[type=text] {
+    padding: 7px 16px;
+  }
+  header .menu #menu-container {
+    display: none;
+  }
+  header .menu .navbar-right {
+    display: none;
+  }
+
+  section.slider {
+    height: auto;
+  }
+  section.slider .swiper-slide img {
+    width: 100%;
+    object-fit: contain;
+    height: 201px;
+  }
+  section.slider .swiper-button-prev, section.slider .swiper-button-next {
+    display: block;
+    width: 5px !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .h_search {
+    float: left;
+    width: 30%;
+  }
+  .h_search form {
+    margin-bottom: 20px;
+  }
+  .h_search form input[type=text] {
+    padding: 7px 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

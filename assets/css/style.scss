@@ -89,11 +89,10 @@ header {
             padding: 1% 0;
 
             img.logo {
-                height: 100px;
+                height: auto;
             }
 
             .h_search {
-                width: 30%;
                 position: relative;
                 margin-top: 2%;
 
@@ -491,7 +490,7 @@ section.news {
         .haber {
             background-color: white;
             padding: 15px 10px;
-            height: 52px;
+            min-height: 56px;
             border: 1px solid rgba(23, 162, 184, 0.20);
             margin-bottom: 2px;
 
@@ -525,7 +524,7 @@ section.news {
 
         .etkinlik {
             width: auto;
-            height: 52px;
+            min-height: 56px;
             background-color: white !important;
             border: 1px solid rgba(175, 23, 48, 0.20);
             margin-bottom: 2px;
@@ -706,14 +705,5 @@ section.social-media {
 }
 
 
-// MOBİLE
-
-@media only screen and (max-device-width: 399px) {
-
-}
-
-
-@media only screen and (min-device-width: 400px) and (max-device-width: 767px) {
-
-
-}
+// Responsive
+@import "responsive.scss";

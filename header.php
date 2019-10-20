@@ -46,9 +46,9 @@ E-Posta : nesimiztrk@gmail.com
         <div class="container">
             <div class="header">
                 <a href="<?= site_url(); ?>">
-                    <img class="logo" src="<?= base_url( 'assets/img/logo2.png' ); ?>" alt="">
+                    <img class="logo" src="<?= base_url( 'assets/img/logo2.png' ); ?>" alt="Akdeniz Üniversitesi Logosu">
                 </a>
-                <div class="h_search float-right">
+                <div class="h_search float-lg-right">
                     <form>
                         <input type="text" class="text mr-1" placeholder="Arama..">
                         <button type="submit">

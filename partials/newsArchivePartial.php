@@ -4,7 +4,7 @@
         <div class="row">
 
 
-            <div class="col-lg-9">
+            <div class="col-lg-9 order-1">
                 <div class="mt-4">
                     <div class="haberler">
                         <div class="title shadow-1">
@@ -36,7 +36,7 @@
 
 								<?php foreach ( $results as $i ) : ?>
 
-                                    <div class="col-6 col-sm-6 col-md-6 col-lg-4">
+                                    <div class="col-12 col-sm-6 col-md-6 col-lg-4">
                                         <div class="card shadow-1" data-toggle="tooltip" data-placement="bottom"
                                              title="<?= htmlentities($i->post_title,ENT_QUOTES, "UTF-8"); ?>">
                                             <div class="card-body">
@@ -63,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 mt-4 linkks">
+            <div class="col-12 order-0 col-lg-3 mt-4 linkks">
 
                 <a href="#" class="btn  btn-block">Öğrenci <i class="fas fa-user float-right mt-1"></i></a>
                 <a href="#" class="btn btn-block">Aday Öğrenci <i
@@ -93,7 +93,7 @@
             </div>
 
 
-            <div class="col-12 col-lg-6 my-3">
+            <div class="col-12 col-lg-6 my-3 order-3">
                 <div class="duyurular">
                     <div class="title text-info shadow-1">
                         DUYURULAR
@@ -136,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 my-3">
+            <div class="col-12 col-lg-6 my-3 order-4">
                 <div class="etkinlikler">
                     <div class="title shadow-1">
                         ETKİNLİKLER

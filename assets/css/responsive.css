@@ -1,0 +1,26 @@
+@media only screen and (min-width: 321px) and (max-width: 576px) {
+  header .top #menu-top-menu {
+    display: none;
+  }
+  header .header {
+    text-align: center;
+  }
+  header .header .logo {
+    width: 100%;
+  }
+  header .header .h_search {
+    float: left;
+  }
+  header .menu #menu-container {
+    display: none;
+  }
+  header .menu .navbar-right {
+    display: none;
+  }
+
+  .slider {
+    height: 531px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
