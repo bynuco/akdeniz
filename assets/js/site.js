@@ -28,3 +28,13 @@ swiper.on('slideChangeTransitionStart', function () {
     var imageUrl = $('.swiper-slide-active').html();
     $('#sliderBg').html(imageUrl);
 });
+
+$('#toggleMenu').on('click',function () {
+    let toggleMenu = $(this).is(':checked');
+
+    if(toggleMenu)
+        $('#menu-container').css('display','block');
+    else
+        $('#menu-container').css('display','none');
+});
+

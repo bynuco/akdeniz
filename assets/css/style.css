@@ -123,9 +123,6 @@ header nav.menu {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
-header nav.menu #menu-container {
-  position: relative;
-}
 header nav.menu #menu-container > ul.navbar-nav > li {
   cursor: pointer;
   min-width: 50px;
@@ -556,6 +553,14 @@ section.social-media ul.social li:hover i {
 }
 
 @media (max-width: 576px) {
+  .toggle label {
+    cursor: pointer;
+    color: white;
+  }
+  .toggle input#toggleMenu {
+    display: none;
+  }
+
   header .top #menu-top-menu {
     display: none;
   }
@@ -575,8 +580,29 @@ section.social-media ul.social li:hover i {
   header .header .h_search form input[type=text] {
     padding: 7px 16px;
   }
+  header .menu {
+    position: relative;
+  }
   header .menu #menu-container {
+    background-color: rgba(0, 0, 0, 0.9);
     display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > a {
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s;
+    font-size: 15px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > a:hover {
+    background-color: #F47325;
+    color: white;
   }
   header .menu .navbar-right {
     display: none;
@@ -598,6 +624,10 @@ section.social-media ul.social li:hover i {
   }
 }
 @media (min-width: 992px) {
+  .toggle {
+    display: none;
+  }
+
   .h_search {
     float: left;
     width: 30%;
@@ -607,6 +637,10 @@ section.social-media ul.social li:hover i {
   }
   .h_search form input[type=text] {
     padding: 7px 16px;
+  }
+
+  #menu-container {
+    position: relative;
   }
 }
 

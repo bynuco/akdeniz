@@ -1,5 +1,17 @@
 @media  (max-width: 576px) {
 
+    .toggle{
+
+        label{
+            cursor: pointer;
+            color:white;
+        }
+
+        input#toggleMenu{
+            display: none;
+        }
+    }
+
     header {
         .top {
             #menu-top-menu {
@@ -29,8 +41,41 @@
         }
 
         .menu {
+            position: relative;
+
             #menu-container {
+                background-color: rgba(0,0,0,0.9);
                 display: none;
+                position: absolute;
+                top:50px;
+                left: 0;
+                right: 0;
+
+                & > ul.navbar-nav {
+
+                    & > li {
+
+
+                        & > a {
+                            cursor: pointer;
+                            display: block;
+                            transition: all .3s;
+                            font-size: 15px;
+                            padding: 0 20px;
+                            color: #fff;
+                            text-decoration: none;
+
+                            &:hover {
+                                background-color: #F47325;
+                                color: white;
+                            }
+                        }
+
+
+
+                    }
+                }
+
             }
 
             .navbar-right {
@@ -72,6 +117,11 @@
 }
 
 @media (min-width: 992px) {
+
+    .toggle{
+        display: none;
+    }
+
     .h_search {
         float: left;
         width: 30%;
@@ -83,6 +133,13 @@
                 padding: 7px 16px;
             }
         }
+    }
+
+    #menu-container {
+
+        position: relative;
+
+
     }
 }
 
