@@ -1,4 +1,9 @@
-﻿$(document).ready(function () {
+﻿const $anaSubLi = $('#menu-container > ul.navbar-nav > li');
+const $anaSubMenu = $('#menu-container > ul.navbar-nav > li > .sub-menu');
+const $subMenuCloseHtml = "<div class='subMenuClose p-2'><i class='fas fa-times fa-2x'></i></div>";
+
+$(document).ready(function () {
+
 
     $('[data-toggle="tooltip"]').tooltip({
         container: 'body'
@@ -38,9 +43,7 @@ $('#toggleMenu').on('click', function () {
         $('#menu-container').css('display', 'none');
 });
 
-$anaSubLi = $('#menu-container > ul.navbar-nav > li');
-$anaSubMenu = $('#menu-container > ul.navbar-nav > li > .sub-menu');
-$subMenuCloseHtml = "<div class='subMenuClose p-2'><i class='fas fa-times fa-2x'></i></div>";
+
 
 $($anaSubMenu).prepend($subMenuCloseHtml);
 
