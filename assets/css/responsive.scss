@@ -43,6 +43,12 @@
         .menu {
             position: relative;
 
+
+
+
+
+
+
             #menu-container {
                 background-color: rgba(0,0,0,0.9);
                 display: none;
@@ -54,6 +60,7 @@
                 & > ul.navbar-nav {
 
                     & > li {
+                        position: relative;
 
 
                         & > a {
@@ -71,6 +78,60 @@
                             }
                         }
 
+                        & > ul.sub-menu { // Ana Sub Menu
+                            position: fixed!important;
+                            top: 0!important;
+                            width: 100vw!important;
+
+
+                            & > li {
+
+                                list-style: none;
+
+                                > a {
+                                    color: coral;
+                                    display: block;
+                                    font-size: 16px;
+                                    font-weight: bold;
+                                    text-decoration: none;
+                                }
+
+                                ul.sub-menu {
+                                    margin-top: -16px !important;
+                                    line-height: 25px;
+                                    box-sizing: content-box;
+                                    width: 100%;
+
+                                    li {
+                                        display: inline-block;
+                                        min-width: 350px;
+
+                                        a {
+
+                                            text-decoration: none;
+                                            color: black;
+                                            font-size: 14px;
+
+                                            &:hover {
+                                                color: coral;
+                                            }
+
+                                            &:before {
+                                                font-family: "Font Awesome 5 Free", cursive;
+                                                content: "\f101";
+                                                display: inline-block;
+                                                padding-right: 3px;
+                                                vertical-align: middle;
+                                                font-weight: 900;
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+
+
+                        }
 
 
                     }
@@ -87,7 +148,7 @@
     }
 
     section.slider {
-        $sliderHeight:201px;
+        $sliderHeight:241px;
         height: auto;
 
         .swiper-slide {
@@ -112,7 +173,7 @@
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 }
 
@@ -136,10 +197,7 @@
     }
 
     #menu-container {
-
         position: relative;
-
-
     }
 }
 

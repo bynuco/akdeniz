@@ -9,6 +9,7 @@ body {
     background-color: #fbfbfb;
     font-size: 12px;
     font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
 
     ul, li {
         padding: 0 !important;
@@ -276,12 +277,20 @@ header {
                         }
 
 
+                        .subMenuClose{
+                            top: 10px;
+                            right: 20px;
+                            position: absolute;
+                            color:black;
+                        }
+
+
                     }
 
-                    &:hover ul.sub-menu {
+                    /*&:hover ul.sub-menu {
                         display: block;
                         height: 100%;
-                    }
+                    }*/
 
                     &:nth-last-child(1) {
                         border-right: none;
@@ -290,7 +299,6 @@ header {
 
                 }
             }
-
         }
 
 
@@ -333,7 +341,7 @@ header {
 
 
 section.slider {
-    $sliderHeight: 731px;
+    $sliderHeight: 733px;
     position: relative;
     background-size: cover;
     height: $sliderHeight +1;
@@ -599,6 +607,7 @@ section.news {
 }*/
 
 footer {
+    width: 100%;
     border-top: 4px solid #3B3B3B;
     border-bottom: 4px solid #3B3B3B;
     position: relative;
@@ -609,7 +618,7 @@ footer {
     }
 
     .nco-map {
-        width: 100%;
+
         z-index: 1;
 
         iframe {

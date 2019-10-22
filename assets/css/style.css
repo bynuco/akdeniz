@@ -9,6 +9,7 @@ body {
   background-color: #fbfbfb;
   font-size: 12px;
   font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden;
 }
 body ul, body li {
   padding: 0 !important;
@@ -131,6 +132,10 @@ header nav.menu #menu-container > ul.navbar-nav > li {
   height: 50px;
   line-height: 50px;
   user-select: none;
+  /*&:hover ul.sub-menu {
+      display: block;
+      height: 100%;
+  }*/
 }
 header nav.menu #menu-container > ul.navbar-nav > li > a {
   cursor: pointer;
@@ -221,9 +226,11 @@ header nav.menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li ul.sub-m
   vertical-align: middle;
   font-weight: 900;
 }
-header nav.menu #menu-container > ul.navbar-nav > li:hover ul.sub-menu {
-  display: block;
-  height: 100%;
+header nav.menu #menu-container > ul.navbar-nav > li > ul.sub-menu .subMenuClose {
+  top: 10px;
+  right: 20px;
+  position: absolute;
+  color: black;
 }
 header nav.menu #menu-container > ul.navbar-nav > li:nth-last-child(1) {
   border-right: none;
@@ -259,7 +266,7 @@ header nav.menu ul.navbar-right li:last-of-type {
 section.slider {
   position: relative;
   background-size: cover;
-  height: 732px;
+  height: 734px;
 }
 section.slider .swiper-container {
   width: 100%;
@@ -280,7 +287,7 @@ section.slider .swiper-slide {
 section.slider .swiper-slide img {
   width: 100%;
   max-width: 1920px;
-  height: 731px;
+  height: 733px;
 }
 section.slider .swiper-button-prev, section.slider .swiper-button-next {
   display: block;
@@ -466,6 +473,7 @@ section.news .etkinlikler .button {
     }
 }*/
 footer {
+  width: 100%;
   border-top: 4px solid #3B3B3B;
   border-bottom: 4px solid #3B3B3B;
   position: relative;
@@ -475,7 +483,6 @@ footer:hover .alt {
   display: none;
 }
 footer .nco-map {
-  width: 100%;
   z-index: 1;
 }
 footer .nco-map iframe {
@@ -591,6 +598,9 @@ section.social-media ul.social li:hover i {
     left: 0;
     right: 0;
   }
+  header .menu #menu-container > ul.navbar-nav > li {
+    position: relative;
+  }
   header .menu #menu-container > ul.navbar-nav > li > a {
     cursor: pointer;
     display: block;
@@ -604,6 +614,47 @@ section.social-media ul.social li:hover i {
     background-color: #F47325;
     color: white;
   }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100vw !important;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li {
+    list-style: none;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li > a {
+    color: coral;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li ul.sub-menu {
+    margin-top: -16px !important;
+    line-height: 25px;
+    box-sizing: content-box;
+    width: 100%;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li ul.sub-menu li {
+    display: inline-block;
+    min-width: 350px;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li ul.sub-menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li ul.sub-menu li a:hover {
+    color: coral;
+  }
+  header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li ul.sub-menu li a:before {
+    font-family: "Font Awesome 5 Free", cursive;
+    content: "";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+  }
   header .menu .navbar-right {
     display: none;
   }
@@ -614,7 +665,7 @@ section.social-media ul.social li:hover i {
   section.slider .swiper-slide img {
     width: 100%;
     object-fit: contain;
-    height: 201px;
+    height: 241px;
   }
   section.slider .swiper-button-prev, section.slider .swiper-button-next {
     display: block;
