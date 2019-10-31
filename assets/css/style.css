@@ -559,7 +559,7 @@ section.social-media ul.social li:hover i {
   font-size: 14px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1200px) {
   .toggle label {
     cursor: pointer;
     color: white;
@@ -674,7 +674,7 @@ section.social-media ul.social li:hover i {
     padding: 20px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
   .toggle {
     display: none;
   }

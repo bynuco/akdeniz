@@ -1,4 +1,4 @@
-@media  (max-width: 576px) {
+@media (max-width: 1200px){
 
     .toggle{
 
@@ -152,7 +152,6 @@
         height: auto;
 
         .swiper-slide {
-
             img {
                 width: 100%;
                 object-fit: contain;
@@ -166,18 +165,13 @@
             background-color: rgba(0, 0, 0, 0.4);
             padding: 20px;
         }
-
-
     }
 
 
 }
 
-@media (max-width: 768px) {
 
-}
-
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
 
     .toggle{
         display: none;

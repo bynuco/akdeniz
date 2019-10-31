@@ -16,7 +16,7 @@ E-Posta : nesimiztrk@gmail.com
     <link href="<?= base_url( 'assets/css/bootstrap.min.css' ); ?>" rel="stylesheet">
     <link href="<?= base_url( 'assets/css/animate.css' ); ?>" rel="stylesheet">
     <link href="<?= base_url( 'assets/css/shadow.min.css' ); ?>" rel="stylesheet">
-    <link href="<?= base_url( 'assets/css/style.css' ); ?>" rel="stylesheet">
+    <link href="<?= base_url( 'assets/css/style.min.css' ); ?>" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>

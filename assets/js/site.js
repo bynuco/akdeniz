@@ -16,7 +16,6 @@ $(document).ready(function () {
         'min-height': window.innerHeight - 336
     }).addClass('animated fadeIn');
 
-
 });
 
 const swiper = new Swiper('.swiper-container', {

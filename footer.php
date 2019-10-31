@@ -48,7 +48,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="<?= base_url( 'assets/js/bootstrap.min.js' ); ?>"></script>
 <script src="<?= base_url( 'assets/lib/swiper/js/swiper.min.js' ); ?>"></script>
-<script src="<?= base_url( 'assets/js/site.js' ); ?>"></script>
+<script src="<?= base_url( 'assets/js/site.min.js' ); ?>"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
