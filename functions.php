@@ -95,7 +95,6 @@ function ncoPostImage( $id ) {
 
 function ncoPostDate( $postDate ) {
 	$postDate    = explode( "/", $postDate );
-
 	return $postDate;
 }
 
