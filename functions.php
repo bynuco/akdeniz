@@ -94,10 +94,9 @@ function ncoPostImage( $id ) {
 }
 
 function ncoPostDate( $postDate ) {
-	$postDate    = explode( " ", $postDate );
-	$postExplode = explode( "-", $postDate[0] );
+	$postDate    = explode( "/", $postDate );
 
-	return $postExplode;
+	return $postDate;
 }
 
 function ncoAylar( $ay ) {

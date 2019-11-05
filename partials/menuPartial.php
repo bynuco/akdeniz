@@ -1,4 +1,4 @@
-<nav class="menu navbar navbar-expand-lg">
+
 
     <div class="container">
         <div class="toggle">
@@ -27,4 +27,3 @@
             <li><a href="#">ENG</a></li>
         </ul>
     </div>
-</nav>

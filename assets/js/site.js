@@ -16,6 +16,14 @@ $(document).ready(function () {
         'min-height': window.innerHeight - 336
     }).addClass('animated fadeIn');
 
+    $('#aramaButton').click(function(){
+
+        var aramaInput = $('#aramaInput').val();
+        window.open('https://cse.google.com/cse?cx=partner-pub-7982915325565846:5818218911&ie=UTF-8&q='+aramaInput+'&sa=Search&ref=#gsc.tab=0&gsc.q='+aramaInput+'','_blank');
+
+
+    });
+
 });
 
 const swiper = new Swiper('.swiper-container', {

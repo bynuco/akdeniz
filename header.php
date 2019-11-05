@@ -27,31 +27,40 @@ E-Posta : nesimiztrk@gmail.com
 
     <div class="top">
         <div class="container">
-	        <?php
-	        wp_nav_menu(
+			<?php
+			wp_nav_menu(
 
-		        array(
-			        'theme_location' => 'top-menu',
-			        'depth'          => 1,
-			        'menu_class'         => '',
-			        'menu_id'         => '',
-			        'container_id'         => ''
-		        )
-	        );
-	        ?>
+				array(
+					'theme_location' => 'top-menu',
+					'depth'          => 1,
+					'menu_class'     => '',
+					'menu_id'        => '',
+					'container_id'   => ''
+				)
+			);
+			?>
         </div>
     </div>
 
-    <div class="header_bg">
+	<?php
+	$headerBgStyle = "";
+	$menuBgStyle   = "";
+	if ( ! is_home() ) {
+		$headerBgStyle = "style='background-color: #31A3DD'";
+		$menuBgStyle   = "style='background-color: rgba(0, 0, 0,0.7)'";
+	}
+	?>
+    <div class="header_bg" <?= $headerBgStyle ?>>
         <div class="container">
             <div class="header">
                 <a href="<?= site_url(); ?>">
-                    <img class="logo" src="<?= base_url( 'assets/img/logo2.png' ); ?>" alt="Akdeniz Üniversitesi Logosu">
+                    <img class="logo" src="<?= base_url( 'assets/img/logo2.png' ); ?>"
+                         alt="Akdeniz Üniversitesi Logosu">
                 </a>
                 <div class="h_search float-lg-right">
                     <form>
-                        <input type="text" class="text mr-1" placeholder="Arama..">
-                        <button type="submit">
+                        <input type="text" id="aramaInput" class="text mr-1" placeholder="Arama..">
+                        <button type="submit" id="aramaButton">
                             <i class="fa fa-search fa-lg"></i>
                         </button>
                     </form>
@@ -60,8 +69,9 @@ E-Posta : nesimiztrk@gmail.com
             </div>
         </div>
     </div>
-
-	<?php get_template_part( 'partials/menuPartial' ); ?>
+    <nav class="menu navbar navbar-expand-lg" <?= $menuBgStyle ?>>
+		<?php get_template_part( 'partials/menuPartial' ); ?>
+    </nav>
 </header>
 
 

@@ -540,23 +540,11 @@ section.social-media ul.social li:hover i {
   color: coral;
 }
 
-.nco-single {
-  min-height: 600px;
-}
 .nco-single h1 {
-  height: 60px;
-  line-height: 60px;
-  font-size: 2em;
-  color: #000;
-}
-.nco-single h1 img {
-  margin-right: 20px;
-  width: 70px;
-  max-height: 60px;
-  border: 1px solid #ddd;
+  color: coral;
 }
 .nco-single .nco-content {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 @media (max-width: 1200px) {
@@ -673,6 +661,21 @@ section.social-media ul.social li:hover i {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 20px;
   }
+
+  .nco-single h1 {
+    height: auto;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  .nco-single h1 img {
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid #ddd;
+    height: auto;
+  }
+  .nco-single .nco-content {
+    font-size: 18px;
+  }
 }
 @media (min-width: 1201px) {
   .toggle {
@@ -692,6 +695,24 @@ section.social-media ul.social li:hover i {
 
   #menu-container {
     position: relative;
+  }
+
+  .nco-single {
+    min-height: 600px;
+  }
+  .nco-single h1 {
+    height: 60px;
+    line-height: 60px;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  .nco-single h1 img {
+    margin-right: 20px;
+    width: 70px;
+    max-height: 60px;
+  }
+  .nco-single .nco-content {
+    font-size: 18px;
   }
 }
 

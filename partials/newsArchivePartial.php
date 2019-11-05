@@ -50,7 +50,7 @@
                                                    title="<?php the_title_attribute(); ?>">
                                                     <strong class="text-muted"><?= kisalt( $i->post_title, 18 ); ?></strong>
                                                     <div class="text-dark">
-														<?= kisalt( $i->post_content, 150 ); ?>
+														<?= kisalt( strip_tags($i->post_content), 150 ); ?>
                                                     </div>
                                                 </a>
                                             </div>
@@ -168,10 +168,13 @@
                             <div class="etkinlik" data-toggle="tooltip" data-placement="left"
                                  title="<?= htmlentities($i->post_title,ENT_QUOTES, "UTF-8"); ?>">
                                 <?php
-                                $postDate = ncoPostDate($i->post_date);
+                                $postDate = ncoPostDate(get_field('etkinlik_bitis',$i->ID));
 
                                 ?>
-                                <div class="tarih float-left"><strong><?= $postDate[2]; ?></strong><br><?= ncoAylar($postDate[1]);?></div>
+                                <div class="tarih float-left">
+                                    <strong><?= $postDate[0]; ?></strong><br>
+                                    <?= ncoAylar($postDate[1]);?>
+                                </div>
 
                                 <a class="text-dark" href="<?= get_the_permalink( $i->ID ); ?>"
                                    title="<?php the_title_attribute(); ?>">
