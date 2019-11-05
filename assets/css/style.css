@@ -301,6 +301,9 @@ section.news {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 40px;
 }
+section.news .linkks img {
+  height: 300px;
+}
 section.news .linkks a {
   font-size: 14px;
   font-weight: 400;
@@ -345,8 +348,8 @@ section.news .title .sag a:hover span {
 }
 section.news .haberler .icerik .card {
   border: 1px solid #ccc;
-  margin-bottom: 20px;
-  min-height: 320px;
+  margin-bottom: 24px;
+  min-height: 240px;
 }
 section.news .haberler .icerik .card .card-body {
   padding: 0;
@@ -357,23 +360,18 @@ section.news .haberler .icerik .card .card-body img {
   height: 100%;
 }
 section.news .haberler .icerik .card .card-footer {
-  overflow: hidden;
-  height: 150px;
+  display: flex;
+  height: 116px;
   background-color: white;
+  align-items: center;
+  justify-content: center;
 }
 section.news .haberler .icerik .card .card-footer a {
   transition: all 0.4s;
   text-decoration: none;
   padding: 0 10px;
-  color: #618aba;
-  display: block;
-}
-section.news .haberler .icerik .card .card-footer a strong {
-  font-size: 14px;
-}
-section.news .haberler .icerik .card .card-footer strong {
-  height: 30px;
-  display: block;
+  color: #000;
+  font-size: 1.25em;
 }
 section.news .duyurular .title {
   border-left: 3px solid #17a2b8;

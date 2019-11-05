@@ -390,6 +390,10 @@ section.news {
 
     .linkks {
 
+        img{
+            height: 300px;
+        }
+
         a {
             font-size: 14px;
             font-weight: 400;
@@ -451,9 +455,8 @@ section.news {
         .icerik {
             .card {
                 border: 1px solid #ccc;
-                margin-bottom: 20px;
-                min-height: 320px;
-
+                margin-bottom: 24px;
+                min-height: 240px;
 
                 .card-body {
                     padding: 0;
@@ -466,25 +469,21 @@ section.news {
                 }
 
                 .card-footer {
-                    overflow: hidden;
-                    height: 150px;
+
+                    display: flex;
+                    height: 116px;
                     background-color: white;
+                    align-items: center;
+                    justify-content: center;
+
 
                     a {
+
                         transition: all .4s;
                         text-decoration: none;
                         padding: 0 10px;
-                        color: #618aba;
-                        display: block;
-
-                        strong {
-                            font-size: 14px;
-                        }
-                    }
-
-                    strong {
-                        height: 30px;
-                        display: block;
+                        color: #000;
+                        font-size: 1.25em;
                     }
                 }
             }
