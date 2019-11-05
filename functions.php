@@ -11,6 +11,8 @@ if ( ! function_exists( 'base_url' ) ) {
 	}
 }
 
+$role_object = get_role( 'editor' );
+$role_object->add_cap( 'edit_theme_options' );
 
 // Menuler
 add_action( 'init', function () {
