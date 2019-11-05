@@ -395,26 +395,10 @@ section.news {
         }
 
         a {
-            font-size: 14px;
-            font-weight: 400;
-
 
             &:hover {
                 transition: all .3s;
-                border-left: 10px solid #026877;
-            }
-        }
-
-        .btn {
-            text-align: left;
-            border-radius: 0 !important;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-left: 4px solid #17A2B8;
-            box-shadow: 1px 1px 10px -1px #ccc;
-
-            &:hover {
-                color: white;
-                background-color: #17A2B8;
+                padding-left: 10px;
             }
         }
     }

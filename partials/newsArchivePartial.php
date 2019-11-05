@@ -119,8 +119,14 @@
                 </div>
             </div>
             <div class="col-12 col-lg-3 linkks">
-                <img class="img-fluid mt-3 shadow-2" src="<?= base_url('assets/img/basindabugun.jpg')?>" alt="">
-                <img class="img-fluid mt-4 shadow-2" src="<?= base_url('assets/img/Akdenizdenhaber.jpg')?>" alt="">
+                <a href="#">
+                <img class="img-fluid mt-3 shadow-2" src="<?= base_url( 'assets/img/basindabugun.jpg' ) ?>"
+                     alt="Akdeniz Üniversitesi Basında Bugün">
+                </a>
+                <a href="http://akdenizdenhaber.com/" target="_blank" rel="nofollow">
+                    <img class="img-fluid mt-4 shadow-2" src="<?= base_url( 'assets/img/Akdenizdenhaber.jpg' ) ?>"
+                         alt="Akdeniz'den Haber Web Sitesi">
+                </a>
                 <!--
                    <a href="#" class="btn  btn-block">Öğrenci <i class="fas fa-user float-right mt-1"></i></a>
                    <a href="#" class="btn btn-block">Aday Öğrenci <i
@@ -181,9 +187,9 @@
                                         <div class="card-footer text-white p-0 text-center">
                                             <a class="pt-3" href="<?= get_the_permalink( $i->ID ); ?>"
                                                title="<?php the_title_attribute(); ?>">
-                                               <?=  kisalt( strip_tags( $i->post_title ), 60 ); ?>
+												<?= kisalt( strip_tags( $i->post_title ), 60 ); ?>
                                                 <!--<div class="text-dark">
-													<?/*= kisalt( strip_tags( $i->post_content ), 150 ); */?>
+													<? /*= kisalt( strip_tags( $i->post_content ), 150 ); */ ?>
                                                 </div>-->
                                             </a>
                                         </div>
