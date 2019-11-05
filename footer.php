@@ -33,14 +33,15 @@
                 <i class="fab fa-instagram"></i>
             </a>
         </li>
-        <li>
-            <a href="https://twitter.com/Akdenizun" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </li>
+
         <li>
             <a href="https://www.youtube.com/Akdenizuniversitesitr" target="_blank">
                 <i class="fab fa-youtube"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/Akdenizun" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
     </ul>
