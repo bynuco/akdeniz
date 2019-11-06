@@ -126,7 +126,7 @@
                         <div class="row">
 							<?php
 							$args = array(
-								'posts_per_page'   => 8,
+								'posts_per_page'   => 4,
 								'offset'           => 0,
 								'category_name'    => 'haberler',
 								'orderby'          => 'date',
@@ -170,10 +170,18 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a href="#" class="btn btn-outline-primary btn-block">Basında Bugün</a>
+                        <a class="text-white btn btn-success  btn-block btn-lg"
+                           href="#">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Basında Bugün
+                        </a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="#" class="btn btn-outline-success btn-block">Akdeniz'den Haber</a>
+                        <a class="text-white btn btn-primary btn-block btn-lg"
+                           href="#">
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Akdeniz'den Haber
+                        </a>
                     </div>
                 </div>
                 <!--
