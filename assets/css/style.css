@@ -300,13 +300,20 @@ section.news {
   background: rgba(15, 135, 235, 0.11) url("../img/bg3.jpg") center center fixed;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 40px;
-}
-section.news .linkks img {
-  height: 300px;
-}
-section.news .linkks a:hover {
-  transition: all 0.3s;
-  padding-left: 10px;
+  /*.linkks {
+
+      img{
+          height: 300px;
+      }
+
+      a {
+
+          &:hover {
+              transition: all .3s;
+              padding-left: 10px;
+          }
+      }
+  }*/
 }
 section.news .title {
   color: #444;

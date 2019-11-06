@@ -118,15 +118,64 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-3 linkks">
-                <a href="#">
-                <img class="img-fluid mt-3 shadow-2" src="<?= base_url( 'assets/img/basindabugun.jpg' ) ?>"
-                     alt="Akdeniz Üniversitesi Basında Bugün">
-                </a>
-                <a href="http://akdenizdenhaber.com/" target="_blank" rel="nofollow">
-                    <img class="img-fluid mt-4 shadow-2" src="<?= base_url( 'assets/img/Akdenizdenhaber.jpg' ) ?>"
-                         alt="Akdeniz'den Haber Web Sitesi">
-                </a>
+
+            <div class="col-lg-12">
+                <div class="haberler">
+
+                    <div class="icerik my-3">
+                        <div class="row">
+							<?php
+							$args = array(
+								'posts_per_page'   => 8,
+								'offset'           => 0,
+								'category_name'    => 'haberler',
+								'orderby'          => 'date',
+								'order'            => 'DESC',
+								'post_type'        => 'post',
+								'post_status'      => 'publish',
+								'suppress_filters' => true,
+							);
+
+							$results = get_posts( $args );
+							?>
+
+							<?php foreach ( $results as $i ) : ?>
+
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                                    <div class="card shadow-1">
+                                        <div class="card-body">
+                                            <a href="<?= get_the_permalink( $i->ID ); ?>">
+                                                <img alt="" class="img-fluid"
+                                                     src="<?= ncoPostImage( $i->ID ); ?>">
+                                            </a>
+                                        </div>
+                                        <div class="card-footer text-white p-0 text-center">
+                                            <a class="pt-3" href="<?= get_the_permalink( $i->ID ); ?>"
+                                               title="<?php the_title_attribute(); ?>">
+												<?= kisalt( strip_tags( $i->post_title ), 60 ); ?>
+                                                <!--<div class="text-dark">
+													<? /*= kisalt( strip_tags( $i->post_content ), 150 ); */ ?>
+                                                </div>-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+							<?php endforeach; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="#" class="btn btn-outline-primary btn-block">Basında Bugün</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a href="#" class="btn btn-outline-success btn-block">Akdeniz'den Haber</a>
+                    </div>
+                </div>
                 <!--
                    <a href="#" class="btn  btn-block">Öğrenci <i class="fas fa-user float-right mt-1"></i></a>
                    <a href="#" class="btn btn-block">Aday Öğrenci <i
@@ -153,52 +202,6 @@
                    <a href="http://ekampus.akdeniz.edu.tr/" class="btn  btn-block">E-Kampüs <i class="fab fa-etsy float-right mt-1"></i></a>
                    <a href="#" class="btn  btn-block">Yemekhaneler <i class="fas fa-utensils float-right mt-1"></i></a>
                -->
-            </div>
-            <div class="col-lg-9">
-                <div class="haberler">
-
-                    <div class="icerik my-3">
-                        <div class="row">
-							<?php
-							$args = array(
-								'posts_per_page'   => 6,
-								'offset'           => 0,
-								'category_name'    => 'haberler',
-								'orderby'          => 'date',
-								'order'            => 'DESC',
-								'post_type'        => 'post',
-								'post_status'      => 'publish',
-								'suppress_filters' => true,
-							);
-
-							$results = get_posts( $args );
-							?>
-
-							<?php foreach ( $results as $i ) : ?>
-
-                                <div class="col-12 col-sm-6 col-md-6 col-lg-4">
-                                    <div class="card shadow-1">
-                                        <div class="card-body">
-                                            <a href="<?= get_the_permalink( $i->ID ); ?>">
-                                                <img alt="" class="img-fluid"
-                                                     src="<?= ncoPostImage( $i->ID ); ?>">
-                                            </a>
-                                        </div>
-                                        <div class="card-footer text-white p-0 text-center">
-                                            <a class="pt-3" href="<?= get_the_permalink( $i->ID ); ?>"
-                                               title="<?php the_title_attribute(); ?>">
-												<?= kisalt( strip_tags( $i->post_title ), 60 ); ?>
-                                                <!--<div class="text-dark">
-													<? /*= kisalt( strip_tags( $i->post_content ), 150 ); */ ?>
-                                                </div>-->
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-							<?php endforeach; ?>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
 
