@@ -22,9 +22,11 @@
 				<?php foreach ( $results as $i ) : ?>
                     <div class="swiper-slide">
                         <?php
-                        $sliderLink = get_field('slider_link',$i->ID );
 
-                        if(empty($sliderLink)){
+                        $sliderLink = get_field('slider_link',$i->ID );
+                        echo "-->". $sliderLink;
+
+                        if(empty($sliderLink) || $sliderLink == null){
                             $sliderLink = get_the_permalink( $i->ID );
                         }else{
 	                        $sliderLink = get_field('slider_link');
