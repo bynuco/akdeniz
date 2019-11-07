@@ -34,8 +34,25 @@ body {
         }
     }
 
+    .btn-coral{
+        background-color: coral;
+
+        &:hover{
+            background-color: rgb(231, 116, 78);
+        }
+    }
+
     .text-danger {
         color: #F47325 !important;
+    }
+
+    .font-1-2{
+        font-size: 1.2em;
+    }
+
+
+    .font-1-half{
+        font-size: 1.5em;
     }
 
 }

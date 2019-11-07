@@ -170,7 +170,7 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a class="text-white btn btn-success  btn-block btn-lg"
+                        <a class="text-white btn btn-coral  btn-block btn-lg"
                            href="#">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                             Basında Bugün

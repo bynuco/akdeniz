@@ -30,8 +30,20 @@ body .sliderBg img {
   width: 100%;
   height: 1080px;
 }
+body .btn-coral {
+  background-color: coral;
+}
+body .btn-coral:hover {
+  background-color: #e7744e;
+}
 body .text-danger {
   color: #F47325 !important;
+}
+body .font-1-2 {
+  font-size: 1.2em;
+}
+body .font-1-half {
+  font-size: 1.5em;
 }
 
 header .top {

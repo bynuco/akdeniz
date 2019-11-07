@@ -1,28 +1,38 @@
 <?php
 get_header(); ?>
-
-    <section id="primary" class="container">
-        <div id="content" role="main">
-
-			<?php
-			if ( have_posts() ) : ?>
-
+    <div style="background: url('<?= base_url( 'assets/img/bg4.jpg' ); ?>') fixed">
+        <section id="primary" class="container" >
+            <div class="nco-single py-5">
 
 				<?php
+				if ( have_posts() ) : ?>
 
-				while ( have_posts() ) : the_post(); ?>
-                    <h2><a href="<?php the_permalink() ?>" rel="bookmark"
-                           title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                    <div class="row">
+                        <div class="col-lg-12 mb-3">
+                            <div class="text-white bg-info d-block p-3 text-center font-1-half text-decoration-none">
+                                TÜM ETKİNLİKLER
+                            </div>
+                        </div>
+						<?php
 
-                    <div class="entry">
-						<?php the_content(); ?>
+						while ( have_posts() ) : the_post(); ?>
+
+                            <div class="col-lg-6">
+                                <div class="card card-body bg-light mb-2">
+
+                                    <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
+                                       title="<?php the_title_attribute(); ?>">
+                                        <i class="fas fa-angle-right"></i> <?php the_title(); ?>
+                                    </a>
+                                </div>
+                            </div>
+
+
+						<?php endwhile; ?>
                     </div>
 
-				<?php endwhile; ?>
-
-
-			<?php endif; ?>
-        </div>
-    </section>
-
+				<?php endif; ?>
+            </div>
+        </section>
+    </div>
 <?php get_footer(); ?>

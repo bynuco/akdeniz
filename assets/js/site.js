@@ -17,18 +17,17 @@ $(document).ready(function () {
     }).addClass('animated fadeIn');
 
     $('#aramaButton').click(function(){
-
         var aramaInput = $('#aramaInput').val();
         window.open('https://cse.google.com/cse?cx=partner-pub-7982915325565846:5818218911&ie=UTF-8&q='+aramaInput+'&sa=Search&ref=#gsc.tab=0&gsc.q='+aramaInput+'','_blank');
-
-
     });
 
 });
 
 const swiper = new Swiper('.swiper-container', {
+
+    loop: true,
     autoplay: {
-        delay: 4000
+        delay: 4000,
     },
     navigation: {
         nextEl: '.swiper-button-next',
