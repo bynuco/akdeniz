@@ -28,7 +28,7 @@
                         if(empty($sliderLink) || is_null($sliderLink)){
                             $sliderLink = get_the_permalink( $i->ID );
                         }else{
-	                        $sliderLink = get_field('slider_link');
+	                        $sliderLink = get_field('slider_link',$i->ID);
                         }
                         ?>
                         <a href="<?= $sliderLink; ?>"
