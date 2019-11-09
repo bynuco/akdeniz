@@ -1,10 +1,10 @@
 <!-- News -->
 <section class="news">
-    <div class="container mt-2">
+    <div class="container mt-2 py-4">
 
 
         <div class="row">
-            <div class="col-12 col-lg-7 my-3">
+            <div class="col-12 col-lg-12 my-3">
                 <div class="duyurular">
                     <div class="title text-info shadow-1">
                         DUYURULAR
@@ -17,7 +17,7 @@
                     <div class="icerik my-1">
 						<?php
 						$args = array(
-							'posts_per_page'   => 8,
+							'posts_per_page'   => 14,
 							'offset'           => 0,
 							'category_name'    => 'duyurular',
 							'orderby'          => 'date',
@@ -30,15 +30,21 @@
 						$results = get_posts( $args );
 						?>
 
-						<?php foreach ( $results as $i ) : ?>
-                            <div class="haber" data-toggle="tooltip" data-placement="right"
-                                 title="<?= htmlentities( $i->post_title, ENT_QUOTES, "UTF-8" ); ?>">
-                                <img alt="" class="img-fluid" src="<?= base_url( 'assets/img/haber_icon.png' ); ?>">
-                                <a href="<?= get_the_permalink( $i->ID ); ?>" title="<?php the_title_attribute(); ?>">
-									<?= kisalt( $i->post_title, 68 ); ?>
-                                </a>
-                            </div>
-						<?php endforeach; ?>
+                        <div class="row my-2">
+							<?php foreach ( $results as $i ) : ?>
+                                <div class="col-lg-6">
+                                    <div class="haber" data-toggle="tooltip" data-placement="bottom"
+                                         title="<?= htmlentities( $i->post_title, ENT_QUOTES, "UTF-8" ); ?>">
+                                        <img alt="" class="img-fluid"
+                                             src="<?= base_url( 'assets/img/haber_icon.png' ); ?>">
+                                        <a href="<?= get_the_permalink( $i->ID ); ?>"
+                                           title="<?php the_title_attribute(); ?>">
+											<?= kisalt( $i->post_title, 54 ); ?>
+                                        </a>
+                                    </div>
+                                </div>
+							<?php endforeach; ?>
+                        </div>
 
                         <a class="text-white btn btn-info btn-block btn-lg"
                            href="<?= categoryNewUrl( "duyurular" ); ?>">
@@ -48,63 +54,75 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5 my-3">
-                <div class="etkinlikler">
-                    <div class="title shadow-1">
-                        ETKİNLİKLER
-                        <div class="sag float-right">
+
+        </div>
+    </div>
+
+
+    <div class="col-12 col-lg-12 my-3 etkinliklerBg">
+        <div class="container">
+            <div class="etkinlikler">
+                <div class="title shadow-1">
+                    ETKİNLİKLER
+                    <div class="sag float-right">
                             <span class="text-danger">
                                 <i class="far fa-calendar-alt fa-lg"></i>
                             </span>
-                        </div>
                     </div>
+                </div>
 
-                    <div class="icerik my-1">
-						<?php
-						$args = array(
-							'posts_per_page'   => 8,
-							'offset'           => 0,
-							'category_name'    => 'etkinlikler',
-							'orderby'          => 'date',
-							'order'            => 'DESC',
-							'post_type'        => 'post',
-							'post_status'      => 'publish',
-							'suppress_filters' => true,
-						);
+                <div class="icerik my-1">
+					<?php
+					$args = array(
+						'posts_per_page'   => 10,
+						'offset'           => 0,
+						'category_name'    => 'etkinlikler',
+						'orderby'          => 'date',
+						'order'            => 'DESC',
+						'post_type'        => 'post',
+						'post_status'      => 'publish',
+						'suppress_filters' => true,
+					);
 
-						$results = get_posts( $args );
+					$results = get_posts( $args );
 
 
-						?>
+					?>
+                    <div class="row my-2">
 						<?php foreach ( $results as $i ) : ?>
-                            <div class="etkinlik" data-toggle="tooltip" data-placement="left"
-                                 title="<?= htmlentities( $i->post_title, ENT_QUOTES, "UTF-8" ); ?>">
-								<?php
-								$postDate = ncoPostDate( get_field( 'etkinlik_bitis', $i->ID ) );
-								?>
-                                <div class="tarih float-left">
-                                    <strong><?= $postDate[0]; ?></strong><br>
-									<?= ncoAylar( $postDate[1] ); ?>
-                                </div>
+                            <div class="col-lg-6">
+                                <div class="etkinlik" data-toggle="tooltip" data-placement="bottom"
+                                     title="<?= htmlentities( $i->post_title, ENT_QUOTES, "UTF-8" ); ?>">
+									<?php
+									$postDate = ncoPostDate( get_field( 'etkinlik_bitis', $i->ID ) );
+									?>
+                                    <div class="tarih float-left">
+                                        <strong><?= $postDate[0]; ?></strong><br>
+										<?= ncoAylar( $postDate[1] ); ?>
+                                    </div>
 
-                                <a class="text-dark" href="<?= get_the_permalink( $i->ID ); ?>"
-                                   title="<?php the_title_attribute(); ?>">
-									<?= kisalt( $i->post_title, 38 ); ?>
-                                </a>
-                                <div class="clearfix"></div>
+                                    <a class="text-dark" href="<?= get_the_permalink( $i->ID ); ?>"
+                                       title="<?php the_title_attribute(); ?>">
+										<?= kisalt( $i->post_title, 38 ); ?>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
                             </div>
 						<?php endforeach; ?>
-
-                        <a class="text-white btn btn-danger btn-block btn-lg"
-                           href="<?= categoryNewUrl( "etkinlikler" ); ?>">
-                            <i class="fas fa-arrow-alt-circle-right"></i> Tüm
-                            Etkinlikler
-                        </a>
                     </div>
+
+                    <a class="text-white btn btn-danger btn-block btn-lg"
+                       href="<?= categoryNewUrl( "etkinlikler" ); ?>">
+                        <i class="fas fa-arrow-alt-circle-right"></i> Tüm
+                        Etkinlikler
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
 
+
+    <div class="container py-4">
         <div class="row">
             <div class="col-lg-12">
                 <div class="title shadow-1">
@@ -185,35 +203,35 @@
                     </div>
                 </div>
                 <!--
-                   <a href="#" class="btn  btn-block">Öğrenci <i class="fas fa-user float-right mt-1"></i></a>
-                   <a href="#" class="btn btn-block">Aday Öğrenci <i
-                               class="fas fa-graduation-cap float-right mt-1"></i></a>
-                   <a href="#" class="btn btn-block">Personel <i class="fas fa-users float-right mt-1"></i></a>
-                   <a href="#" class="btn btn-block">Bilimsel Araş. Projeleri Koor. Bir. <i
-                               class="fas fa-chart-bar float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Kütüphane <i class="fas fa-book-reader float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Hastane <i class="fas fa-hospital-alt float-right mt-1"></i></a>
-                   <a href="#" class="btn btn-block">Basın ve Halkla İlişkiler <i
-                               class="fas fa-newspaper float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Engelli <i class="fas fa-wheelchair float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Kalite <i class="fas fa-award float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Akdeniz Teknoloji Transfer Ofisi <i
-                               class="fas fa-caret-right float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Antalya Teknokent <i class="fas fa-tenge float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Uzaktan Eğitim <i
-                               class="fas fa-chalkboard-teacher float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Sürekli Eğitim <i class="fas fa-school float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Kampüste Yaşam <i class="fas fa-university float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Egit. ve Öğr. Mükemmellik A.U.M. <i
-                               class="fas fa-medal float-right mt-1"></i></a>
-                   <a href="#" class="btn btn-block">Yayınlar <i class="fas fa-book float-right mt-1"></i></a>
-                   <a href="http://ekampus.akdeniz.edu.tr/" class="btn  btn-block">E-Kampüs <i class="fab fa-etsy float-right mt-1"></i></a>
-                   <a href="#" class="btn  btn-block">Yemekhaneler <i class="fas fa-utensils float-right mt-1"></i></a>
-               -->
+				   <a href="#" class="btn  btn-block">Öğrenci <i class="fas fa-user float-right mt-1"></i></a>
+				   <a href="#" class="btn btn-block">Aday Öğrenci <i
+							   class="fas fa-graduation-cap float-right mt-1"></i></a>
+				   <a href="#" class="btn btn-block">Personel <i class="fas fa-users float-right mt-1"></i></a>
+				   <a href="#" class="btn btn-block">Bilimsel Araş. Projeleri Koor. Bir. <i
+							   class="fas fa-chart-bar float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Kütüphane <i class="fas fa-book-reader float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Hastane <i class="fas fa-hospital-alt float-right mt-1"></i></a>
+				   <a href="#" class="btn btn-block">Basın ve Halkla İlişkiler <i
+							   class="fas fa-newspaper float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Engelli <i class="fas fa-wheelchair float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Kalite <i class="fas fa-award float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Akdeniz Teknoloji Transfer Ofisi <i
+							   class="fas fa-caret-right float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Antalya Teknokent <i class="fas fa-tenge float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Uzaktan Eğitim <i
+							   class="fas fa-chalkboard-teacher float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Sürekli Eğitim <i class="fas fa-school float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Kampüste Yaşam <i class="fas fa-university float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Egit. ve Öğr. Mükemmellik A.U.M. <i
+							   class="fas fa-medal float-right mt-1"></i></a>
+				   <a href="#" class="btn btn-block">Yayınlar <i class="fas fa-book float-right mt-1"></i></a>
+				   <a href="http://ekampus.akdeniz.edu.tr/" class="btn  btn-block">E-Kampüs <i class="fab fa-etsy float-right mt-1"></i></a>
+				   <a href="#" class="btn  btn-block">Yemekhaneler <i class="fas fa-utensils float-right mt-1"></i></a>
+			   -->
             </div>
         </div>
-
     </div>
+
 </section>
 
 <!-- Archive -->

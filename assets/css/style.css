@@ -400,6 +400,12 @@ section.news .duyurular .haber a {
 section.news .duyurular .haber:hover {
   background-color: rgba(0, 0, 0, 0.15);
 }
+section.news .etkinliklerBg {
+  background-image: url("../img/events-bg.png");
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-size: cover;
+}
 section.news .etkinlikler .title {
   border-left: 3px solid #af1730;
   color: #af1730;

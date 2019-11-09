@@ -520,6 +520,13 @@ section.news {
         }
     }
 
+    .etkinliklerBg{
+        background-image: url("../img/events-bg.png");
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-size: cover;
+    }
+
     .etkinlikler {
         .title {
             border-left: 3px solid #af1730;
