@@ -438,7 +438,7 @@ section.news .etkinlikler .etkinlik a {
   display: block;
 }
 section.news .etkinlikler .etkinlik:hover {
-  background-color: rgba(0, 0, 0, 0.12) !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
 }
 section.news .etkinlikler .button {
   height: 48px;

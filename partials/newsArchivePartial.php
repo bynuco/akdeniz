@@ -188,17 +188,15 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a class="text-white btn btn-coral  btn-block btn-lg"
-                           href="#">
-                            <i class="fas fa-calendar-week"></i>
-                            Basında Bugün
+                        <a href="#">
+                            <img src="<?= base_url("assets/img/basindaBugun.png"); ?>" class="img-fluid img-thumbnail"
+                                 alt="Basında Bügün">
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <a class="text-white btn btn-primary btn-block btn-lg"
-                           href="#">
-                            <i class="fas fa-newspaper"></i>
-                            Akdeniz'den Haber
+                        <a href="#">
+                            <img src="<?= base_url("assets/img/akdenizdenHaber.png"); ?>" class="img-fluid img-thumbnail"
+                                 alt="Basında Bügün">
                         </a>
                     </div>
                 </div>
