@@ -23,7 +23,6 @@
 
 
         <ul class="navbar-right list-unstyled float-right text-center">
-            <li><a href="#">TR</a></li>
             <li><a href="#">ENG</a></li>
         </ul>
     </div>
