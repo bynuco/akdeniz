@@ -17,7 +17,7 @@
                     <div class="icerik my-1">
 						<?php
 						$args = array(
-							'posts_per_page'   => 14,
+							'posts_per_page'   => 10,
 							'offset'           => 0,
 							'category_name'    => 'duyurular',
 							'orderby'          => 'date',
