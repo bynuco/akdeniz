@@ -17,11 +17,8 @@ get_header(); ?>
                                          style="width:100%; height: 220px">
                                     <div class="card-body">
                                         <h6 class="card-title text-dark font-weight-light">
-                                            <?= kisalt(get_the_title(),60); ?>
+                                            <?= kisalt(get_the_title(),80); ?>
                                         </h6>
-                                        <p class="card-text text-muted">
-                                            <?= kisalt(get_the_content(),200); ?>
-                                        </p>
                                     </div>
                                 </div>
                                 </a>
