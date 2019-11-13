@@ -312,20 +312,6 @@ section.news {
   background: rgba(15, 135, 235, 0.11) url("../img/bg3.jpg") center center fixed;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 40px;
-  /*.linkks {
-
-      img{
-          height: 300px;
-      }
-
-      a {
-
-          &:hover {
-              transition: all .3s;
-              padding-left: 10px;
-          }
-      }
-  }*/
 }
 section.news .title {
   color: #444;
@@ -445,41 +431,6 @@ section.news .etkinlikler .button {
   background-color: #af1730 !important;
 }
 
-/*section.archive {
-    margin-bottom: 130px!important;
-    background-color: #f2f2f2;
-
-    .card {
-
-        .card-footer {
-            height: 60px;
-        }
-    }
-
-    .bg-card1 {
-        background-color: #ed6b10;
-    }
-
-    .bg-card2 {
-        background-color: #005ba4;
-    }
-
-    .bg-card3 {
-        background-color: #10467b;
-    }
-
-    .bg-card4 {
-        background-color: #01728e;
-    }
-
-    .bg-card5 {
-        background-color: #9b0303;
-    }
-
-    .bg-card6 {
-        background-color: #006362;
-    }
-}*/
 footer {
   width: 100%;
   border-top: 4px solid #3B3B3B;
