@@ -16,7 +16,9 @@ get_header(); ?>
                                     <img class="card-img-top" src="<?= ncoPostImage( $post->ID ); ?>" alt="image"
                                          style="width:100%; height: 220px">
                                     <div class="card-body">
-                                        <h6 class="card-title text-dark font-weight-light"><?php the_title(); ?></h6>
+                                        <h6 class="card-title text-dark font-weight-light">
+                                            <?= kisalt(get_the_title(),60); ?>
+                                        </h6>
                                         <p class="card-text text-muted">
                                             <?= kisalt(get_the_content(),200); ?>
                                         </p>
