@@ -23,6 +23,6 @@
 
 
         <ul class="navbar-right list-unstyled float-right text-center">
-            <li><a href="#">ENG</a></li>
+            <li><a href="http://eng.akdeniz.edu.tr/">ENG</a></li>
         </ul>
     </div>
