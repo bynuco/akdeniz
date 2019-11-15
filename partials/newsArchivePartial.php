@@ -134,7 +134,8 @@
                 <div class="title shadow-1">
                     HABERLER
                     <div class="sag float-right">
-                        <a class="sag-title" href="<?= categoryNewUrl( "haberler" ); ?>">TÜM HABER ARŞİVİ</a>
+                        <a class="sag-title" href="http://www.akdeniz.edu.tr/tema/tumhaberler.php">TÜM HABER ARŞİVİ</a>
+	                    <?//= categoryNewUrl( "haberler" ); ?>
                         <span class="badge text-dark">
                            <i class="fas fa-newspaper fa-lg"></i>
                         </span>
@@ -177,9 +178,6 @@
                                             <a class="pt-3" href="<?= get_the_permalink( $i->ID ); ?>"
                                                title="<?php the_title_attribute(); ?>">
 												<?= kisalt( strip_tags( $i->post_title ), 60 ); ?>
-                                                <!--<div class="text-dark">
-													<? /*= kisalt( strip_tags( $i->post_content ), 150 ); */ ?>
-                                                </div>-->
                                             </a>
                                         </div>
                                     </div>
