@@ -20,6 +20,9 @@ get_header(); ?>
                                             <?= kisalt(get_the_title(),100); ?>
                                         </h6>
                                     </div>
+                                    <div class="card-footer text-center text-dark">
+                                        <?= get_the_date(); ?>
+                                    </div>
                                 </div>
                                 </a>
                             </div>

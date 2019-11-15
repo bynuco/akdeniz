@@ -90,11 +90,17 @@
 					?>
                     <div class="row my-2">
 						<?php foreach ( $results as $i ) : ?>
+                            <?php
+                            $gununTarihi = date('d/m/Y');
+                            $etkinlikBitis =  get_field( 'etkinlik_bitis', $i->ID );
+                            if ($gununTarihi >= $etkinlikBitis)  continue;
+                            ?>
+
                             <div class="col-lg-6">
                                 <div class="etkinlik" data-toggle="tooltip" data-placement="bottom"
                                      title="<?= htmlentities( $i->post_title, ENT_QUOTES, "UTF-8" ); ?>">
 									<?php
-									$postDate = ncoPostDate( get_field( 'etkinlik_bitis', $i->ID ) );
+									$postDate = ncoPostDate( get_field( 'etkinlik_baslangic', $i->ID ) );
 									?>
                                     <div class="tarih float-left">
                                         <strong><?= $postDate[0]; ?></strong><br>

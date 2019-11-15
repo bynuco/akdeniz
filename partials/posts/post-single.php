@@ -7,4 +7,6 @@
 	    <?= get_the_title(); ?>
     </h1>
     <div class="nco-content"><?php the_content(); ?></div>
+    <hr>
+    <div><?= get_the_date(); ?></div>
 </article>
