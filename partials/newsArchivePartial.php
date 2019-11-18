@@ -78,7 +78,7 @@
 						'offset'           => 0,
 						'category_name'    => 'etkinlikler',
 						'orderby'          => 'meta_value_num',
-						'order'            => 'DESC',
+						'order'            => 'ASC',
 						'meta_key'         => 'etkinlik_baslangic',
 						'post_type'        => 'post',
 						'post_status'      => 'publish',
