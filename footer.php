@@ -55,6 +55,16 @@
 <script src="<?= base_url( 'assets/js/bootstrap.min.js' ); ?>"></script>
 <script src="<?= base_url( 'assets/lib/swiper/js/swiper.min.js' ); ?>"></script>
 <script src="<?= base_url( 'assets/js/site.min.js' ); ?>"></script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152755445-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152755445-1');
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>
