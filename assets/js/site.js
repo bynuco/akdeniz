@@ -16,9 +16,11 @@ $(document).ready(function () {
         'min-height': window.innerHeight - 336
     }).addClass('animated fadeIn');
 
-    $('#aramaButton').click(function(){
+    $('#aramaButton').click(function () {
         var aramaInput = $('#aramaInput').val();
-        window.open('https://cse.google.com/cse?cx=partner-pub-4561983886525127:1286342922&ie=UTF-8&q='+aramaInput+'&sa=Search&ref=#gsc.tab=0&gsc.q='+aramaInput+'','_blank');
+        if (aramaInput !== "") {
+            window.open('https://cse.google.com/cse?cx=partner-pub-4561983886525127:1286342922&ie=UTF-8&q=' + aramaInput + '&sa=Search&ref=#gsc.tab=0&gsc.q=' + aramaInput + '', '_blank');
+        }
     });
 });
 
@@ -49,16 +51,15 @@ $('#toggleMenu').on('click', function () {
 });
 
 
-
 $($anaSubMenu).prepend($subMenuCloseHtml);
 
 $anaSubLi.mouseover(function () {
-    $(this).find('> .sub-menu').css('display','block');
+    $(this).find('> .sub-menu').css('display', 'block');
 });
 $anaSubLi.mouseout(function () {
-    $(this).find('> .sub-menu').css('display','none');
+    $(this).find('> .sub-menu').css('display', 'none');
 });
 
-$('.subMenuClose').on('click',function (e) {
-    $(this).parent().css('display','none')
+$('.subMenuClose').on('click', function (e) {
+    $(this).parent().css('display', 'none')
 });
