@@ -77,8 +77,9 @@
 						'posts_per_page'   => 10,
 						'offset'           => 0,
 						'category_name'    => 'etkinlikler',
-						'orderby'          => 'date',
+						'orderby'          => 'meta_value_num',
 						'order'            => 'DESC',
+						'meta_key'         => 'etkinlik_baslangic',
 						'post_type'        => 'post',
 						'post_status'      => 'publish',
 						'suppress_filters' => true,
@@ -90,11 +91,13 @@
 					?>
                     <div class="row my-2">
 						<?php foreach ( $results as $i ) : ?>
-                            <?php
-                            $gununTarihi = date('d/m/Y');
-                            $etkinlikBitis =  get_field( 'etkinlik_bitis', $i->ID );
-                            if ($gununTarihi >= $etkinlikBitis)  continue;
-                            ?>
+							<?php
+							$gununTarihi   = date( 'd/m/Y' );
+							$etkinlikBitis = get_field( 'etkinlik_bitis', $i->ID );
+							if ( $gununTarihi >= $etkinlikBitis ) {
+								continue;
+							}
+							?>
 
                             <div class="col-lg-6">
                                 <div class="etkinlik" data-toggle="tooltip" data-placement="bottom"
@@ -135,7 +138,7 @@
                     HABERLER
                     <div class="sag float-right">
                         <a class="sag-title" href="http://www.akdeniz.edu.tr/tema/tumhaberler.php">TÜM HABER ARŞİVİ</a>
-	                    <?//= categoryNewUrl( "haberler" ); ?>
+						<? //= categoryNewUrl( "haberler" ); ?>
                         <span class="badge text-dark">
                            <i class="fas fa-newspaper fa-lg"></i>
                         </span>
@@ -192,14 +195,15 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a href="<?= site_url()."/basinda-bugun/"; ?>">
-                            <img src="<?= base_url("assets/img/basindaBugun.png"); ?>" class="img-fluid img-thumbnail"
+                        <a href="<?= site_url() . "/basinda-bugun/"; ?>">
+                            <img src="<?= base_url( "assets/img/basindaBugun.png" ); ?>" class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
                         </a>
                     </div>
                     <div class="col-lg-6">
                         <a href="http://akdenizdenhaber.com/">
-                            <img src="<?= base_url("assets/img/akdenizdenHaber.png"); ?>" class="img-fluid img-thumbnail"
+                            <img src="<?= base_url( "assets/img/akdenizdenHaber.png" ); ?>"
+                                 class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
                         </a>
                     </div>
