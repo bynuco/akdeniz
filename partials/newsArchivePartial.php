@@ -137,11 +137,10 @@
                 <div class="title shadow-1">
                     HABERLER
                     <div class="sag float-right">
-                        <a class="sag-title" href="http://www.akdeniz.edu.tr/tema/tumhaberler.php">TÜM HABER ARŞİVİ</a>
-						<? //= categoryNewUrl( "haberler" ); ?>
-                        <span class="badge text-dark">
-                           <i class="fas fa-newspaper fa-lg"></i>
-                        </span>
+                        <a class="sag-title" href="<?= categoryNewUrl('haberler'); ?>">TÜM HABER ARŞİVİ</a>
+                            <span class="badge text-dark">
+                               <i class="fas fa-newspaper fa-lg"></i>
+                            </span>
                         </a>
                     </div>
                 </div>

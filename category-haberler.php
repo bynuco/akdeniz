@@ -29,6 +29,7 @@ get_header(); ?>
 						<?php endwhile; ?>
                     </div>
 
+                    <a class="btn btn-primary btn-block btn-lg" href="http://www.akdeniz.edu.tr/tema/tumhaberler.php">Tüm Haber Arşivi İçin Tıklayınız</a>
 
 				<?php endif; ?>
             </div>
