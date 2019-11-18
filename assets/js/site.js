@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $('#aramaButton').click(function(){
         var aramaInput = $('#aramaInput').val();
-        window.open('https://cse.google.com.tr/cse?cx=017375842155506736590:zl3snbb66mm&ie=UTF-8&q='+aramaInput+'&sa=Search&ref=#gsc.tab=0&gsc.q='+aramaInput+'','_blank');
+        window.open('https://cse.google.com/cse?cx=partner-pub-4561983886525127:1286342922&ie=UTF-8&q='+aramaInput+'&sa=Search&ref=#gsc.tab=0&gsc.q='+aramaInput+'','_blank');
     });
 });
 
