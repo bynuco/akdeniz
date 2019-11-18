@@ -194,7 +194,7 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a href="<?= site_url() . "/basinda-bugun/"; ?>">
+                        <a href="http://bhim.akdeniz.edu.tr/basinda-bugun/">
                             <img src="<?= base_url( "assets/img/basindaBugun.png" ); ?>" class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
                         </a>
