@@ -40,7 +40,7 @@
             </a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/school/18115471/" target="_blank">
+            <a href="https://www.linkedin.com/school/akdeniz-universitesi" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
             </a>
         </li>
