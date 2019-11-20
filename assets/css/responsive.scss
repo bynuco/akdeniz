@@ -50,6 +50,7 @@
 
 
             #menu-container {
+                z-index:999999;
                 background-color: rgba(0,0,0,0.9);
                 display: none;
                 position: absolute;
@@ -82,6 +83,7 @@
                             position: fixed!important;
                             top: 0!important;
                             width: 100vw!important;
+                            z-index:-999999;
 
 
                             & > li {
