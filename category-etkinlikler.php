@@ -26,9 +26,9 @@ get_header(); ?>
 
                                     </a>
                                 </div>
-                                <div class="card-footer">
-
-                                    <small class="text-danger">( <?= get_the_date(); ?> )</small>
+                                <div class="card-footer" style="border:1px solid #ccc;">
+                                    <strong>Eklenme Tarihi:</strong>
+                                    <span class="text-danger"> <?= get_the_date(); ?></span>
                                 </div>
                             </div>
 
