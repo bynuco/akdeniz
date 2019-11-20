@@ -1,7 +1,7 @@
 <?php
 get_header(); ?>
     <div style="background: url('<?= base_url( 'assets/img/bg4.jpg' ); ?>') fixed">
-        <section id="primary" class="container" >
+        <section id="primary" class="container">
             <div class="nco-single py-5">
 
 				<?php
@@ -18,21 +18,25 @@ get_header(); ?>
 						while ( have_posts() ) : the_post(); ?>
 
                             <div class="col-lg-6 mb-3">
-                                <div class="card card-body bg-light text-center"  style="min-height: 10vh; display: flex; justify-content: center">
+                                <div class="card bg-light text-center shadow-2"
+                                     style="display: flex; justify-content: center;">
 
-                                    <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
-                                       title="<?php the_title_attribute(); ?>">
-                                        <i class="fas fa-angle-right"></i>
-                                        <strong class="text-dark"><?php the_title(); ?></strong>
+                                    <div class="card-body" style="min-height: 10vh;">
+                                        <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
+                                           title="<?php the_title_attribute(); ?>">
+                                            <i class="fas fa-angle-right"></i>
+                                            <strong style="color:#000"><?php the_title(); ?></strong>
 
-                                    </a>
-                                </div>
-                                <div class="card-footer text-center" style="border:1px solid #ccc;">
-                                    <strong>Etkinlik Başlangıç Tarihi:</strong>
-                                    <span class="text-danger"> <?= get_field( 'etkinlik_baslangic', $post->ID ); ?></span>
-                                    <br>
-                                    <strong>Etkinlik Bitiş Tarihi:</strong>
-                                    <span class="text-danger"> <?= get_field( 'etkinlik_bitis', $post->ID ); ?></span>
+                                        </a>
+                                    </div>
+                                    <div class="card-footer text-center bg-light">
+                                        <strong>Etkinlik Başlangıç Tarihi:</strong>
+                                        <span class="text-danger"> <?= get_field( 'etkinlik_baslangic', $post->ID ); ?></span>
+                                        <br>
+                                        <strong>Etkinlik Bitiş Tarihi:</strong>
+                                        <span class="text-danger"> <?= get_field( 'etkinlik_bitis', $post->ID ); ?></span>
+                                    </div>
+
                                 </div>
                             </div>
 
