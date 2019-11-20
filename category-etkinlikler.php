@@ -17,7 +17,7 @@ get_header(); ?>
 
 						while ( have_posts() ) : the_post(); ?>
 
-                            <div class="col-lg-6 mb-2">
+                            <div class="col-lg-6 mb-5">
                                 <div class="card card-body bg-light text-center"  style="min-height: 10vh; display: flex; justify-content: center">
 
                                     <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
