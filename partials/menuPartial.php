@@ -1,12 +1,7 @@
 
 
     <div class="container">
-        <div class="toggle">
-            <label for="toggleMenu">
-                <i class="fas fa-bars fa-2x mt-1"></i>
-            </label>
-            <input type="checkbox" id="toggleMenu">
-        </div>
+
 
 		<?php
 		wp_nav_menu(
@@ -20,7 +15,13 @@
 			)
 		);
 		?>
-
+        <div class="clearfix"></div>
+        <div class="toggle">
+            <label for="toggleMenu">
+                <i class="fas fa-bars fa-2x mt-1"></i>
+            </label>
+            <input type="checkbox" id="toggleMenu">
+        </div>
 
         <ul class="navbar-right list-unstyled float-right text-center">
             <li><a href="http://eng.akdeniz.edu.tr/">ENG</a></li>

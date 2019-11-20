@@ -9,6 +9,7 @@
 
         input#toggleMenu{
             display: none;
+
         }
     }
 
@@ -43,19 +44,15 @@
         .menu {
             position: relative;
 
-
-
-
-
-
-
             #menu-container {
+                text-align: right;
                 z-index:999999;
                 background-color: rgba(0,0,0,0.9);
                 display: none;
                 position: absolute;
-                top:50px;
-                left: 0;
+                top:49px;
+                width: 25vh;
+                box-sizing: content-box;
                 right: 0;
 
                 & > ul.navbar-nav {
@@ -83,6 +80,7 @@
                             position: fixed!important;
                             top: 0!important;
                             width: 100vw!important;
+                            text-align: left;
                             z-index:-999999;
 
 

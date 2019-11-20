@@ -538,12 +538,14 @@ section.social-media ul.social li:hover i {
     position: relative;
   }
   header .menu #menu-container {
+    text-align: right;
     z-index: 999999;
     background-color: rgba(0, 0, 0, 0.9);
     display: none;
     position: absolute;
-    top: 50px;
-    left: 0;
+    top: 49px;
+    width: 25vh;
+    box-sizing: content-box;
     right: 0;
   }
   header .menu #menu-container > ul.navbar-nav > li {
@@ -566,6 +568,7 @@ section.social-media ul.social li:hover i {
     position: fixed !important;
     top: 0 !important;
     width: 100vw !important;
+    text-align: left;
     z-index: -999999;
   }
   header .menu #menu-container > ul.navbar-nav > li > ul.sub-menu > li {
