@@ -74,7 +74,7 @@
                 <div class="icerik my-1">
 					<?php
 					$args = array(
-						'posts_per_page'   => 10,
+						'posts_per_page'   => 100,
 						'offset'           => 0,
 						'category_name'    => 'etkinlikler',
 						'orderby'          => 'meta_value_num',
@@ -94,9 +94,9 @@
 							<?php
 							$gununTarihi   = date( 'd/m/Y' );
 							$etkinlikBitis = get_field( 'etkinlik_bitis', $i->ID );
-							/*if ( $gununTarihi >= $etkinlikBitis ) {
+							if ( $gununTarihi >= $etkinlikBitis ) {
 								continue;
-							}*/
+							}
 							?>
 
                             <div class="col-lg-6">
