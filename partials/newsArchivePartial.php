@@ -92,8 +92,8 @@
                     <div class="row my-2">
 						<?php foreach ( $results as $i ) : ?>
 							<?php
-							$gununTarihi   = date( 'd/m/Y' );
-							$etkinlikBitis = get_field( 'etkinlik_bitis', $i->ID );
+							echo $gununTarihi   = date( 'd/m/Y' );
+							echo $etkinlikBitis = get_field( 'etkinlik_bitis', $i->ID );
 							if ( $gununTarihi >= $etkinlikBitis ) {
 								continue;
 							}
