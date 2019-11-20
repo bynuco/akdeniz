@@ -177,7 +177,7 @@
                                             </a>
                                         </div>
                                         <div class="card-footer text-white p-0 text-center">
-                                            <a class="pt-2" href="<?= get_the_permalink( $i->ID ); ?>"
+                                            <a class="pt-0" href="<?= get_the_permalink( $i->ID ); ?>"
                                                title="<?php the_title_attribute(); ?>">
 												<?= kisalt( strip_tags( $i->post_title ), 60 ); ?>
                                             </a>
