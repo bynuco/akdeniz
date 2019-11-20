@@ -9,8 +9,8 @@ get_header(); ?>
 
                     <div class="row">
                         <div class="col-lg-12 mb-3">
-                            <div class="text-white bg-info d-block p-3 text-center font-1-half text-decoration-none">
-                                TÜM ETKİNLİKLER
+                            <div class="d-block pb-2 text-center font-1-half text-decoration-none">
+                                <h1>TÜM ETKİNLİKLER</h1>
                             </div>
                         </div>
 						<?php
@@ -18,16 +18,16 @@ get_header(); ?>
 						while ( have_posts() ) : the_post(); ?>
 
                             <div class="col-lg-6 mb-2">
-                                <div class="card card-body bg-light"  style="min-height: 10vh; display: flex; justify-content: center">
+                                <div class="card card-body bg-light text-center"  style="min-height: 10vh; display: flex; justify-content: center">
 
                                     <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
                                        title="<?php the_title_attribute(); ?>">
                                         <i class="fas fa-angle-right"></i>
-                                        <strong class="text-info"><?php the_title(); ?></strong>
+                                        <strong class="text-dark"><?php the_title(); ?></strong>
 
                                     </a>
                                 </div>
-                                <div class="card-footer" style="border:1px solid #ccc;">
+                                <div class="card-footer text-center" style="border:1px solid #ccc;">
                                     <strong>Etkinlik Başlangıç Tarihi:</strong>
                                     <span class="text-danger"> <?= get_field( 'etkinlik_baslangic', $post->ID ); ?></span>
                                     <br>
