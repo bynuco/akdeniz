@@ -540,12 +540,15 @@ section.social-media ul.social li:hover i {
   header .menu #menu-container {
     text-align: right;
     z-index: 999999;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(59, 59, 59, 0.85);
     display: none;
     position: absolute;
-    top: 49px;
-    width: 25vh;
+    top: 60px;
+    width: 22vh;
     box-sizing: content-box;
+    border: 1px solid #888;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
     right: 0;
   }
   header .menu #menu-container > ul.navbar-nav > li {

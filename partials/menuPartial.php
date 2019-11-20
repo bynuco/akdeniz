@@ -19,6 +19,7 @@
         <div class="toggle">
             <label for="toggleMenu">
                 <i class="fas fa-bars fa-2x mt-1"></i>
+                <span style="margin-left: 5px; font-size: 2em">MENU</span>
             </label>
             <input type="checkbox" id="toggleMenu">
         </div>
