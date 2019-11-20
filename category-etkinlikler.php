@@ -27,8 +27,11 @@ get_header(); ?>
                                     </a>
                                 </div>
                                 <div class="card-footer" style="border:1px solid #ccc;">
-                                    <strong>Eklenme Tarihi:</strong>
-                                    <span class="text-danger"> <?= get_the_date(); ?></span>
+                                    <strong>Etkinlik Başlangıç Tarihi:</strong>
+                                    <span class="text-danger"> <?= get_field( 'etkinlik_baslangic', $post->ID ); ?></span>
+                                    <br>
+                                    <strong>Etkinlik Bitiş Tarihi:</strong>
+                                    <span class="text-danger"> <?= get_field( 'etkinlik_bitis', $post->ID ); ?></span>
                                 </div>
                             </div>
 
