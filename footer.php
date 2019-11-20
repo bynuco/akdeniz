@@ -9,7 +9,7 @@
 
     <div class="alt animated fadeIn text-center pt-5 pb-4">
 
-        <p class="text-white">© 2018 Akdeniz Üniversitesi | Dumlupınar Bulvarı 07058 Kampüs / Antalya / Türkiye</p>
+        <p class="text-white">© 2019 Akdeniz Üniversitesi | Dumlupınar Bulvarı 07058 Kampüs / Antalya / Türkiye</p>
 
 
 

@@ -18,6 +18,8 @@ E-Posta : nesimiztrk@gmail.com
     <link href="<?= base_url( 'assets/css/shadow.min.css' ); ?>" rel="stylesheet">
     <link href="<?= base_url( 'assets/css/style.min.css' ); ?>" rel="stylesheet">
 
+    <link rel="shortcut icon" href="<?= base_url('assets/img/favicon.ico')?>" />
+
 	<?php wp_head(); ?>
 </head>
 <body>

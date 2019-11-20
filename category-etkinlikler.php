@@ -17,13 +17,18 @@ get_header(); ?>
 
 						while ( have_posts() ) : the_post(); ?>
 
-                            <div class="col-lg-6">
-                                <div class="card card-body bg-light mb-2">
+                            <div class="col-lg-6 mb-2">
+                                <div class="card card-body bg-light"  style="min-height: 10vh; display: flex; justify-content: center">
 
                                     <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
                                        title="<?php the_title_attribute(); ?>">
                                         <i class="fas fa-angle-right"></i> <?php the_title(); ?>
+
                                     </a>
+                                </div>
+                                <div class="card-footer">
+
+                                    <small class="text-danger">( <?= get_the_date(); ?> )</small>
                                 </div>
                             </div>
 

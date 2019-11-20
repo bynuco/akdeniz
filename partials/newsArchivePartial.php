@@ -194,13 +194,13 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
                     <div class="col-lg-6">
-                        <a href="http://bhim.akdeniz.edu.tr/basinda-bugun/">
+                        <a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
                             <img src="<?= base_url( "assets/img/basindaBugun.png" ); ?>" class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
                         </a>
                     </div>
                     <div class="col-lg-6">
-                        <a href="http://akdenizdenhaber.com/">
+                        <a href="http://akdenizdenhaber.com/" target="_blank">
                             <img src="<?= base_url( "assets/img/akdenizdenHaber.png" ); ?>"
                                  class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
