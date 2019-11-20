@@ -46,15 +46,15 @@
             #menu-container {
                 text-align: right;
                 z-index:999999;
-                background-color: rgba(59, 59, 59, .85);
+                background-color: rgba(59, 59, 59, .9);
                 display: none;
                 position: absolute;
-                top:60px;
+                top:49px;
                 width: 22vh;
                 box-sizing: content-box;
                 border:1px solid #888;
-                border-top-left-radius: 20%;
-                border-bottom-left-radius: 20%;
+                border-top-left-radius: 25%;
+                border-bottom-left-radius: 25%;
                 right: 0;
 
                 & > ul.navbar-nav {
