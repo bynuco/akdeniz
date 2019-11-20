@@ -22,7 +22,8 @@ get_header(); ?>
 
                                     <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
                                        title="<?php the_title_attribute(); ?>">
-                                        <i class="fas fa-angle-right"></i> <?php the_title(); ?>
+                                        <i class="fas fa-angle-right"></i>
+                                        <strong class="text-info"><?php the_title(); ?></strong>
 
                                     </a>
                                 </div>
