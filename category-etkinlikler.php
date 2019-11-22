@@ -30,11 +30,8 @@ get_header(); ?>
                                         </a>
                                     </div>
                                     <div class="card-footer text-center bg-light">
-                                        <strong>Etkinlik Başlangıç Tarihi:</strong>
+                                        <strong>Etkinlik Tarihi:</strong>
                                         <span class="text-danger"> <?= get_field( 'etkinlik_baslangic', $post->ID ); ?></span>
-                                        <br>
-                                        <strong>Etkinlik Bitiş Tarihi:</strong>
-                                        <span class="text-danger"> <?= get_field( 'etkinlik_bitis', $post->ID ); ?></span>
                                     </div>
 
                                 </div>

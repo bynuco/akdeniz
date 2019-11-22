@@ -9,8 +9,8 @@ get_header(); ?>
 
                 <div class="row">
                     <div class="col-lg-12 mb-3">
-                        <div class="text-white bg-info d-block p-3 text-center font-1-half text-decoration-none">
-                            TÜM DUYURULAR
+                        <div class="d-block pb-2 text-center font-1-half text-decoration-none">
+                            <h1>TÜM DUYURULAR</h1>
                         </div>
                     </div>
 					<?php
@@ -18,11 +18,11 @@ get_header(); ?>
 					while ( have_posts() ) : the_post(); ?>
 
                         <div class="col-lg-6">
-                            <div class="card card-body bg-light mb-2" style="min-height: 10vh; display: flex; justify-content: center">
-
+                            <div class="card-body" style="min-height: 10vh;">
                                 <a href="<?php the_permalink() ?>" class="text-dark font-1-2"
                                    title="<?php the_title_attribute(); ?>">
-                                    <i class="fas fa-angle-right"></i> <?php the_title(); ?>
+                                    <i class="fas fa-angle-right"></i>
+                                    <strong style="color:#000"><?php the_title(); ?></strong>
                                 </a>
                             </div>
                         </div>
