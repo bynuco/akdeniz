@@ -18,7 +18,7 @@ get_header(); ?>
 						while ( have_posts() ) : the_post(); ?>
 
                             <div class="col-lg-6 mb-3">
-                                <div class="card bg-light text-center shadow-2"
+                                <div class="card bg-light text-center shadow-1"
                                      style="display: flex; justify-content: center;">
 
                                     <div class="card-body" style="min-height: 10vh;">
