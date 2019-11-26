@@ -169,3 +169,9 @@ function custom_columns( $column ) {
 			break;
 	}
 }
+
+
+function nco_strtotime($date){
+	$date = str_replace('/', '-', $date);
+	return date('Y-m-d', strtotime($date));
+}

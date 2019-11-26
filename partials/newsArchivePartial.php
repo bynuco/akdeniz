@@ -73,8 +73,9 @@
 
                 <div class="icerik my-1">
 					<?php
+                    unset($args,$results);
 					$args = array(
-						'posts_per_page'   => 100,
+						'posts_per_page'   => 1000,
 						'offset'           => 0,
 						'category_name'    => 'etkinlikler',
 						'orderby'          => 'meta_value_num',
@@ -86,15 +87,15 @@
 					);
 
 					$results = get_posts( $args );
-
-
 					?>
+
                     <div class="row my-2">
 						<?php foreach ( $results as $i ) : ?>
 							<?php
 							$gununTarihi   = date( 'd/m/Y' );
 							$etkinlikBitis = get_field( 'etkinlik_bitis', $i->ID );
-							if ( $gununTarihi >= $etkinlikBitis ) {
+
+							if ( strtotime(nco_strtotime($gununTarihi)) >  strtotime(nco_strtotime($etkinlikBitis)) ) {
 								continue;
 							}
 							?>
