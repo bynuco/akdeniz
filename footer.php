@@ -39,7 +39,7 @@
         </li>
     </ul>
 
-    <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a><a class="d-none" href="https://bynuco.com">Web Yazılım Hizmetleri</a></p>
+    <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a></p>
 </section>
 
 
