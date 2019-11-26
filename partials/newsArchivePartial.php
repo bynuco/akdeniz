@@ -96,6 +96,8 @@
 							$etkinlikBitis = get_field( 'etkinlik_bitis', $i->ID );
 
 							if ( strtotime(nco_strtotime($gununTarihi)) >  strtotime(nco_strtotime($etkinlikBitis)) ) {
+							    if($post->post_status === "draft") continue;
+								$wpdb->update( $wpdb->posts, array( 'post_status' => 'draft' ), array( 'ID' => $post->ID ) );
 								continue;
 							}
 							?>
