@@ -506,6 +506,16 @@ section.social-media ul.social li:hover i {
   font-size: 18px;
 }
 
+.ataturk {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #3B3B3B;
+  padding-left: 10px;
+  border-bottom-left-radius: 50%;
+}
+
 @media (max-width: 1200px) {
   .toggle label {
     cursor: pointer;
@@ -642,6 +652,16 @@ section.social-media ul.social li:hover i {
   }
   .nco-single .nco-content {
     font-size: 18px;
+  }
+
+  .ataturk {
+    top: 20px;
+    z-index: -999;
+    background-color: transparent;
+    border: 0;
+  }
+  .ataturk img {
+    width: 120px;
   }
 }
 @media (min-width: 1201px) {

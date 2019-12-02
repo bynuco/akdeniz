@@ -38,8 +38,8 @@
             </a>
         </li>
     </ul>
-    <div style="position: absolute;top:50px;right: 10px; z-index: -999">
-        <img width="70px" src="<?= base_url('assets/img/atam.png'); ?>" alt="">
+    <div class="ataturk">
+        <img width="70px" src="<?= base_url('assets/img/atam.png'); ?>" class="img-fluid" alt="">
     </div>
     <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a><a class="d-none" href="https://bynuco.com">Web Yazılım Hizmetleri</a></p>
 </section>

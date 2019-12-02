@@ -34,10 +34,10 @@ body {
         }
     }
 
-    .btn-coral{
+    .btn-coral {
         background-color: coral;
 
-        &:hover{
+        &:hover {
             background-color: rgb(231, 116, 78);
         }
     }
@@ -47,12 +47,12 @@ body {
     }
 
 
-    .font-1-2{
+    .font-1-2 {
         font-size: 1.2em;
     }
 
 
-    .font-1-half{
+    .font-1-half {
         font-size: 1.5em;
     }
 
@@ -169,7 +169,6 @@ header {
         width: 100%;
         border-top: 1px solid #666;
         border-bottom: 1px solid #666;
-
 
 
         #menu-container {
@@ -294,11 +293,11 @@ header {
                         }
 
 
-                        .subMenuClose{
+                        .subMenuClose {
                             top: 10px;
                             right: 20px;
                             position: absolute;
-                            color:black;
+                            color: black;
                         }
 
 
@@ -505,7 +504,7 @@ section.news {
         }
     }
 
-    .etkinliklerBg{
+    .etkinliklerBg {
         background-image: url("../img/events-bg.png");
         padding-top: 100px;
         padding-bottom: 100px;
@@ -550,7 +549,7 @@ section.news {
             }
 
             &:hover {
-                background-color: rgba(255,255, 255, 0.8) !important;
+                background-color: rgba(255, 255, 255, 0.8) !important;
             }
         }
 
@@ -651,12 +650,22 @@ section.social-media {
 .nco-single {
     h1 {
 
-        color:coral;
+        color: coral;
     }
 
     .nco-content {
         font-size: 18px;
     }
+}
+
+.ataturk {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #3B3B3B;
+    padding-left: 10px;
+    border-bottom-left-radius: 50%
 }
 
 
