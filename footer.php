@@ -72,10 +72,10 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src="https://akdeniz.edu.tr/a-popup.jpg"  class="img-responsive"/>
+        <img src="https://www.akdeniz.edu.tr/a-popup.jpg"  class="img-responsive"/>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
       </div>
     </div>
   </div>
