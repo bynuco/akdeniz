@@ -60,6 +60,35 @@
 
     gtag('config', 'UA-152755445-1');
 </script>
+
+
+<div class="modal fade" id="isteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="https://akdeniz.edu.tr/a-popup.jpg"  class="img-responsive"/>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<button id="isteModalButton" type="button" style="display:none" data-toggle="modal" data-target="#isteModal">
+</button>
+
+<script>
+    $( document ).ready(function() {
+        $("#isteModalButton").trigger('click');
+    });
+</script>
+
 <?php wp_footer(); ?>
 </body>
 </html>
