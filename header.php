@@ -19,8 +19,8 @@ E-Posta : nesimiztrk@gmail.com
     <link href="https://eders.akdeniz.edu.tr/bootstrap/css/animate.css" rel="stylesheet">
     <link href="https://eders.akdeniz.edu.tr/bootstrap/css/shadow.min.css" rel="stylesheet">
     <link href="https://eders.akdeniz.edu.tr/bootstrap/css/style.min.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/shadow.min.css" rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/style.min.css" rel="stylesheet">
+    <link href="https://eders.akdeniz.edu.tr/bootstrap/css/shadow.min.css" rel="stylesheet">
+    <link href="https://eders.akdeniz.edu.tr/bootstrap/css/style.min.css" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
