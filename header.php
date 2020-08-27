@@ -9,16 +9,16 @@ E-Posta : nesimiztrk@gmail.com
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="author" content="Nesimi Umutcan ÖZTÜRK" />
     <meta name="contact" content="nesimiztrk@gmail.com" />
-    <link rel="shortcut icon" href="<?= base_url('assets/img/favicon.ico')?>" />
+    <link rel="shortcut icon" href="<?= base_url('./assets/img/favicon.ico')?>" />
     <link rel="publisher" href="https://bynuco.com">
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="description" content="Akdeniz Üniversitesi" />
-    <link href="<?= base_url( 'assets/css/bootstrap.min.css' ); ?>" rel="stylesheet">
-    <link href="<?= base_url( 'assets/css/animate.css' ); ?>" rel="stylesheet">
-    <link href="<?= base_url( 'assets/css/shadow.min.css' ); ?>" rel="stylesheet">
-    <link href="<?= base_url( 'assets/css/style.min.css' ); ?>" rel="stylesheet">
+    <link href="<?= base_url( 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css' ); ?>" rel="stylesheet">
+    <link href="<?= base_url( 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/animate.css' ); ?>" rel="stylesheet">
+    <link href="<?= base_url( 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/shadow.min.css' ); ?>" rel="stylesheet">
+    <link href="<?= base_url( 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/style.min.css' ); ?>" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
