@@ -36,7 +36,7 @@
                                     <div class="haber" data-toggle="tooltip" data-placement="bottom"
                                          title="<?= htmlentities( $i->post_title, ENT_QUOTES, "UTF-8" ); ?>">
                                         <img alt="" class="img-fluid"
-                                             src="<?= base_url( 'assets/img/haber_icon.png' ); ?>">
+                                             src="https://eders.akdeniz.edu.tr/bootstrap/img/haber_icon.png">
                                         <a href="<?= get_the_permalink( $i->ID ); ?>"
                                            title="<?php the_title_attribute(); ?>">
 											<?= kisalt( $i->post_title, 54 ); ?>
