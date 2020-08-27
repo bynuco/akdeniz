@@ -1,6 +1,6 @@
 <?php
 get_header(); ?>
-    <div style="background: url('<?= base_url( 'assets/img/bg4.jpg' ); ?>') fixed">
+    <div style="background: url('https://eders.akdeniz.edu.tr/bootstrap/img/bg4.jpg') fixed">
         <section id="primary" class="container">
             <div class="nco-single py-5">
 
