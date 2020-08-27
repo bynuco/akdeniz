@@ -9,8 +9,7 @@ E-Posta : nesimiztrk@gmail.com
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="author" content="Nesimi Umutcan ÖZTÜRK" />
     <meta name="contact" content="nesimiztrk@gmail.com" />
-    <link rel="shortcut icon" href="<?= base_url('./assets/img/favicon.ico')?>" />
-    <link rel="publisher" href="https://bynuco.com">
+    <link rel="shortcut icon" href="https://eders.akdeniz.edu.tr/bootstrap/img/favicon.ico" />
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -58,7 +57,7 @@ E-Posta : nesimiztrk@gmail.com
         <div class="container">
             <div class="header">
                 <a href="<?= site_url(); ?>">
-                    <img class="logo" src="<?= base_url( 'assets/img/logo2.png' ); ?>"
+                    <img class="logo" src="https://eders.akdeniz.edu.tr/bootstrap/img/logo2.png">
                          alt="Akdeniz Üniversitesi Logosu">
                 </a>
                 <div class="h_search float-lg-right">
