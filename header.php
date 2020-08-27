@@ -15,10 +15,10 @@ E-Posta : nesimiztrk@gmail.com
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="description" content="Akdeniz Üniversitesi" />
-    <link href="https://cse.akdeniz.edu.tr/wp-content/themes/fakulte/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cse.akdeniz.edu.tr/wp-content/themes/fakulte/css/animate.css" rel="stylesheet">
-    <link href="https://cse.akdeniz.edu.tr/wp-content/themes/fakulte/css/shadow.min.css" rel="stylesheet">
-    <link href="https://cse.akdeniz.edu.tr/wp-content/themes/fakulte/css/style.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/animate.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/shadow.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/style.min.css" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
