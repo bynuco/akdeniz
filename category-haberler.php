@@ -28,9 +28,8 @@ get_header(); ?>
                             </div>
 						<?php endwhile; ?>
                     </div>
-
-                    <a class="btn btn-primary btn-block btn-lg" href="http://ww2.akdeniz.edu.tr/tema/tumhaberler.php">Tüm Haber Arşivi İçin Tıklayınız</a>
-
+		
+                   
 				<?php endif; ?>
             </div>
         </section>
