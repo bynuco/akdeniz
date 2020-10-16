@@ -4,7 +4,7 @@
             <div class="swiper-wrapper">
 				<?php
 				$args = array(
-					'posts_per_page'   => 15,
+					'posts_per_page'   => 20,
 					'offset'           => 0,
 					'category_name'    => 'sliderlar',
 					'meta_key'         => 'slider_sirasi',
