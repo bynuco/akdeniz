@@ -90,7 +90,7 @@ E-Posta : nesimiztrk@gmail.com
                 <div class="h_search float-lg-right">
                     <form>
                         <input type="text" id="aramaInput" class="text mr-1" placeholder="Arama.." required>
-                        <button type="submit" id="aramaButton">
+                        <button type="submit" id="aramaButton" value="Ara" accesskey="a">
                             <i class="fa fa-search fa-lg"></i>
                         </button>
                     </form>
