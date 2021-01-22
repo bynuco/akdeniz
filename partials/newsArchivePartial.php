@@ -194,8 +194,9 @@
 
             <div class="col-12 col-lg-12">
                 <div class="row">
-			<div class="col-lg-3"></div>
-                    <div class="col-lg-6">
+			<div class="col-lg-5"></div>
+			<div class="col-lg-2"></div>
+                    <div class="col-lg-5">
                         <a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
                             <img src="https://eders.akdeniz.edu.tr/bootstrap/img/basindaBugun.png" class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
