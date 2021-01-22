@@ -200,8 +200,8 @@
                                  alt="EUA">
                         </a>
 			</div>
-			<div class="col-lg-2"></div>
-                    <div class="col-lg-6">
+			<div class="col-lg-1"></div>
+                    <div class="col-lg-7">
                         <a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
                             <img src="https://eders.akdeniz.edu.tr/bootstrap/img/basindaBugun.png" class="img-fluid img-thumbnail"
                                  alt="Basında Bügün">
