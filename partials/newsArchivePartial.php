@@ -196,8 +196,8 @@
                 <div class="row">
 			<div class="col-lg-5">
 			<a href="https://eua.eu/" target="_blank">
-                            <img src="https://www.akdeniz.edu.tr/vendor/themes/akdeniz/assets/img/screenshot-eua.eu-2021.01.18-12_50_09.png" class="img-fluid img-thumbnail"
-                                 alt="Basında Bügün">
+                            <img src="http://www.bim.edu.tr/vendor/themes/akdeniz/assets/img/screenshot-eua.eu-2021.01.18-12_50_09.png" class="img-fluid img-thumbnail"
+                                 alt="EUA">
                         </a>
 			</div>
 			<div class="col-lg-2"></div>
