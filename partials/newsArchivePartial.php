@@ -196,7 +196,7 @@
                 <div class="row">
 			<div class="col-lg-5">
 			<a href="https://eua.eu/" target="_blank">
-                            <img src="https://hizliresim.com/DvHGJW][img]https://i.hizliresim.com/DvHGJW.png" class="img-fluid img-thumbnail"
+                            <img src="https://i.imgur.com/qQVeINM.png" class="img-fluid img-thumbnail"
                                  alt="EUA">
                         </a>
 			</div>
