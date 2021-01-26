@@ -204,7 +204,7 @@
 			<div class="col-lg-1"></div>
                    	<div class="col-lg-4">
 				<a href="https://eua.eu/" target="_blank">
-				    <img src="https://i.imgur.com/qQVeINM.png" class="img-fluid img-thumbnail"
+				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/screenshot-eua.eu-2021.01.18-12_50_09__1_.png" class="img-fluid img-thumbnail"
 					 alt="EUA">
 				</a>
 			</div>
