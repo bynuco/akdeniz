@@ -194,19 +194,20 @@
 
             <div class="col-12 col-lg-12">
                 <div class="row">
-			<div class="col-lg-4">
-			<a href="https://eua.eu/" target="_blank">
-                            <img src="https://i.imgur.com/qQVeINM.png" class="img-fluid img-thumbnail"
-                                 alt="EUA">
-                        </a>
-			</div>
+			
+			<div class="col-lg-7">
+				<a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
+				    <img src="https://eders.akdeniz.edu.tr/bootstrap/img/basindaBugun.png" class="img-fluid img-thumbnail"
+					 alt="Basında Bügün">
+				</a>
+                    	</div>
 			<div class="col-lg-1"></div>
-                    <div class="col-lg-7">
-                        <a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
-                            <img src="https://eders.akdeniz.edu.tr/bootstrap/img/basindaBugun.png" class="img-fluid img-thumbnail"
-                                 alt="Basında Bügün">
-                        </a>
-                    </div>
+                   	<div class="col-lg-4">
+				<a href="https://eua.eu/" target="_blank">
+				    <img src="https://i.imgur.com/qQVeINM.png" class="img-fluid img-thumbnail"
+					 alt="EUA">
+				</a>
+			</div>
                     
                 </div>
 
