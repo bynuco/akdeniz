@@ -213,28 +213,28 @@
 		<div class="row mt-3">
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="https://www.yok.gov.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/YOK.jpg" class="img-fluid img-thumbnail"
 					 alt="Yükseköğretim kurulu">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="https://www.osym.gov.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/osym.jpg" class="img-fluid img-thumbnail"
 					 alt="Ölçme, Seçme ve Yerleştirme Merkezi">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="https://www.tubitak.gov.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/tubitak.jpg" class="img-fluid img-thumbnail"
 					 alt="Türkiye Bilimsel ve Teknolojik Araştırma Kurumu">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="https://www.cimer.gov.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/cimer.jpg" class="img-fluid img-thumbnail"
 					 alt="Cumhurbaşkanlığı İletişim Merkezi">
 				</a>
@@ -246,28 +246,28 @@
 		<div class="row mt-2">
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="https://www.uak.gov.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/uak.jpg" class="img-fluid img-thumbnail"
 					 alt="Üniversitelerarası Kurul Başkanlığı">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="https://www.ilan.gov.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/ilan.jpg" class="img-fluid img-thumbnail"
 					 alt="Basın İlan Kurumu">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="http://engelsiz.akdeniz.edu.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/engelsiz-akdeniz.jpg" class="img-fluid img-thumbnail"
 					 alt="Engelli Öğrenci Birimi">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
-				<a href="#" target="_blank">
+				<a href="http://ekampus.akdeniz.edu.tr/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/e-kampus.jpg" class="img-fluid img-thumbnail"
 					 alt="E-Kampüs Uygulaması">
 				</a>
