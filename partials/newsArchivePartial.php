@@ -211,33 +211,33 @@
                     
                 </div>
 		    
-		<div class="row mt-2">
+		<div class="row mt-3">
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/YOK.jpg" class="img-fluid img-thumbnail"
-					 alt="Yükseköğretim kurulu" style="height:100px">
+					 alt="Yükseköğretim kurulu">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/osym.jpg" class="img-fluid img-thumbnail"
-					 alt="Ölçme, Seçme ve Yerleştirme Merkezi" style="height:100px">
+					 alt="Ölçme, Seçme ve Yerleştirme Merkezi">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/tubitak.jpg" class="img-fluid img-thumbnail"
-					 alt="Türkiye Bilimsel ve Teknolojik Araştırma Kurumu" style="height:100px">
+					 alt="Türkiye Bilimsel ve Teknolojik Araştırma Kurumu">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/cimer.jpg" class="img-fluid img-thumbnail"
-					 alt="Cumhurbaşkanlığı İletişim Merkezi" style="height:100px">
+					 alt="Cumhurbaşkanlığı İletişim Merkezi">
 				</a>
                     	</div>
                     
@@ -249,28 +249,28 @@
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/uak.jpg" class="img-fluid img-thumbnail"
-					 alt="Üniversitelerarası Kurul Başkanlığı" style="height:100px">
+					 alt="Üniversitelerarası Kurul Başkanlığı">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/ilan.jpg" class="img-fluid img-thumbnail"
-					 alt="Basın İlan Kurumu" style="height:100px">
+					 alt="Basın İlan Kurumu">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/engelsiz-akdeniz.jpg" class="img-fluid img-thumbnail"
-					 alt="Engelli Öğrenci Birimi" style="height:100px">
+					 alt="Engelli Öğrenci Birimi">
 				</a>
                     	</div>
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/e-kampus.jpg" class="img-fluid img-thumbnail"
-					 alt="E-Kampüs Uygulaması" style="height:100px">
+					 alt="E-Kampüs Uygulaması">
 				</a>
                     	</div>
                     
