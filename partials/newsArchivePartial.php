@@ -195,13 +195,12 @@
             <div class="col-12 col-lg-12">
                 <div class="row">
 			
-			<div class="col-lg-7">
+			<div class="col-lg-8">
 				<a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
 				    <img src="https://eders.akdeniz.edu.tr/bootstrap/img/basindaBugun.png" class="img-fluid img-thumbnail"
 					 alt="Basında Bügün" style="height:120px">
 				</a>
                     	</div>
-			<div class="col-lg-1"></div>
                    	<div class="col-lg-4">
 				<a href="https://eua.eu/" target="_blank">
 				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/screenshot-eua.eu-2021.01.18-12_50_09__1_.png" class="img-fluid img-thumbnail"
