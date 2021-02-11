@@ -211,7 +211,7 @@
                     
                 </div>
 		    
-		<div class="row">
+		<div class="row mt-2">
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
@@ -229,7 +229,7 @@
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
-				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/tubidak.jpg" class="img-fluid img-thumbnail"
+				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/tubitak.jpg" class="img-fluid img-thumbnail"
 					 alt="Türkiye Bilimsel ve Teknolojik Araştırma Kurumu" style="height:100px">
 				</a>
                     	</div>
@@ -248,7 +248,7 @@
 			
 			<div class="col-lg-3">
 				<a href="#" target="_blank">
-				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/auk.jpg" class="img-fluid img-thumbnail"
+				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/uak.jpg" class="img-fluid img-thumbnail"
 					 alt="Üniversitelerarası Kurul Başkanlığı" style="height:100px">
 				</a>
                     	</div>
