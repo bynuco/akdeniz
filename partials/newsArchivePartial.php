@@ -240,10 +240,7 @@
 				</a>
                     	</div>
                     
-               	</div>
-		    
-		    
-		<div class="row mt-2">
+               	
 			
 			<div class="col-md">
 				<a href="https://www.uak.gov.tr/" target="_blank">
