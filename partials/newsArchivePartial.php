@@ -210,7 +210,7 @@
                     
                 </div>
 		    
-		<div class="row mt-3">
+		<div class="row mt-5">
 			
 			<div class="col-md">
 				<a href="https://www.yok.gov.tr/" target="_blank">
