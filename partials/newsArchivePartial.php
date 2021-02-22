@@ -154,7 +154,7 @@
                         <div class="row">
 							<?php
 							$args = array(
-								'posts_per_page'   => 4,
+								'posts_per_page'   => 1,
 								'offset'           => 0,
 								'category_name'    => 'haberler',
 								'orderby'          => 'date',
