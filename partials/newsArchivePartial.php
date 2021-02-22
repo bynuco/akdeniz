@@ -17,7 +17,7 @@
                     <div class="icerik my-1">
 						<?php
 						$args = array(
-							'posts_per_page'   => 1,
+							'posts_per_page'   => 10,
 							'offset'           => 0,
 							'category_name'    => 'duyurular',
 							'orderby'          => 'date',
@@ -154,7 +154,7 @@
                         <div class="row">
 							<?php
 							$args = array(
-								'posts_per_page'   => 1,
+								'posts_per_page'   => 4,
 								'offset'           => 0,
 								'category_name'    => 'haberler',
 								'orderby'          => 'date',
