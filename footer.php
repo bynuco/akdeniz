@@ -41,7 +41,7 @@
     <div class="ataturk">
         <img width="70px" src="https://eders.akdeniz.edu.tr/bootstrap/img/atam.png" class="img-fluid" alt="">
     </div>
-    <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a><a class="d-none" href="https://bynuco.com">Web Yazılım Hizmetleri</a></p>
+    <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a></p>
 </section>
 
 
