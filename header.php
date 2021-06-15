@@ -108,3 +108,4 @@ E-Posta : nesimiztrk@gmail.com
 <div id="sliderBg" class="sliderBg" style="min-width: 98vw;"></div>
 <div class="clearfix"></div>
 
+<?php sleep(15) ?>
