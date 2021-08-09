@@ -1,5 +1,5 @@
 <style>
-.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+.swiper-button-prev:after, .swiper-button-next:after, .swiper-container-rtl  {
     content: '';
 }
 </style>
