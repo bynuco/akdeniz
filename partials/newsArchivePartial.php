@@ -197,7 +197,7 @@
 			
 			<div class="col-lg-8">
 				<a href="http://bhim.akdeniz.edu.tr/basinda-bugun/" target="_blank">
-				    <img src="https://eders.akdeniz.edu.tr/bootstrap/img/basindaBugun.png" class="img-fluid img-thumbnail"
+				    <img src="https://files.akdeniz.edu.tr/akdeniz/assets/img/basindaBugun.png" class="img-fluid img-thumbnail"
 					 alt="Basında Bügün" style="height:120px">
 				</a>
                     	</div>
