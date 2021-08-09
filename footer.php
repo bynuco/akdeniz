@@ -39,7 +39,7 @@
         </li>
     </ul>
     <div class="ataturk">
-        <img width="70px" src="https://eders.akdeniz.edu.tr/bootstrap/img/atam.png" class="img-fluid" alt="">
+        <img width="70px" src="https://files.akdeniz.edu.tr/akdeniz/assets/img/atam.png" class="img-fluid" alt="">
     </div>
     <p class="text-white"><a class="text-dark" target="_blank" href="//bim.akdeniz.edu.tr">Bilgi İşlem Daire Başkanlığı</a></p>
 </section>
