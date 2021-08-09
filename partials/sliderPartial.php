@@ -1,3 +1,8 @@
+<style>
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: '';
+}
+</style>
 <section class="slider">
     <div class="">
         <div class="swiper-container">
