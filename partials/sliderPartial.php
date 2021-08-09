@@ -32,7 +32,7 @@
                         }
                         ?>
                         <a href="<?= $sliderLink; ?>"
-                           title="<?php the_title_attribute(); ?>">
+                           title="">
                             <img alt="Slider Resim" class="img-fluid animated fadeIn"
                                  src="<?= get_the_post_thumbnail_url( $i->ID ); ?>">
                         </a>
@@ -42,7 +42,7 @@
             </div>
             <!-- Add Arrows -->
             <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-prev"></div>-->
         </div>
     </div>
 </section>
