@@ -203,7 +203,7 @@
                     	</div>
                    	<div class="col-lg-4">
 				<a href="https://eua.eu/" target="_blank">
-				    <img src="https://files.akdeniz.edu.tr/akdeniz/assets/img/screenshot-eua.eu-2021.01.18-12_50_09__1_.png" class="img-fluid img-thumbnail"
+				    <img src="https://files.akdeniz.edu.tr/akdeniz/assets/img/screenshot-eua.eu-2021.01.18-12_50_09.png" class="img-fluid img-thumbnail"
 					 alt="EUA"  style="height:120px">
 				</a>
 			</div>
