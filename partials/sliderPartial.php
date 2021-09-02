@@ -63,7 +63,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <img src=""  class="img-fluid"/>
+        <img src="https://files.akdeniz.edu.tr/akdeniz/assets/img/akdenizcovidduyuru.jpg"  class="img-fluid"/>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
@@ -75,8 +75,8 @@
 <button id="isteModalButton" type="button" style="display:none" data-toggle="modal" data-target="#isteModal">
 </button>
 -->
-<script>/*
+<script>
     $( document ).ready(function() {
         $("#isteModalButton").trigger('click');
-    });*/
+    });
 </script>
