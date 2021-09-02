@@ -61,6 +61,11 @@
     gtag('config', 'UA-152755445-1');
 </script>
 
+<script>
+    $( document ).ready(function() {
+        $("#isteModalButton").trigger('click');
+    });
+</script>
 
 <?php wp_footer(); ?>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4561983886525127"
