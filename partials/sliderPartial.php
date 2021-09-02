@@ -71,12 +71,8 @@
     </div>
   </div>
 </div>
-<!--
+
 <button id="isteModalButton" type="button" style="display:none" data-toggle="modal" data-target="#isteModal">
 </button>
--->
-<script>
-    $( document ).ready(function() {
-        $("#isteModalButton").trigger('click');
-    });
-</script>
+
+
