@@ -18,8 +18,6 @@ E-Posta : nesimiztrk@gmail.com
     <link href="https://files.akdeniz.edu.tr/akdeniz/assets/css/animate.css" rel="stylesheet">
     <link href="https://files.akdeniz.edu.tr/akdeniz/assets/css/shadow.min.css" rel="stylesheet">
     <link href="https://files.akdeniz.edu.tr/akdeniz/assets/css/style.min.css" rel="stylesheet">
-    <link href="https://files.akdeniz.edu.tr/akdeniz/assets/css/shadow.min.css" rel="stylesheet">
-    <link href="https://files.akdeniz.edu.tr/akdeniz/assets/css/style.min.css" rel="stylesheet">
 	<style>
 
 	a.skip-main {
