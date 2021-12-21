@@ -211,6 +211,12 @@
                 </div>
 		    
 		<div class="row mt-5">
+			<div class="col-md">
+				<a href="https://yokak.gov.tr/" target="_blank">
+				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/YOKAK-Akreditasyon.jpg" class="img-fluid img-thumbnail"
+					 alt="Yükseköğretim Kalite Kurulu">
+				</a>
+                    	</div>
 			
 			<div class="col-md">
 				<a href="https://www.yok.gov.tr/" target="_blank">
@@ -240,14 +246,6 @@
 				</a>
                     	</div>
                     
-               	
-			
-			<div class="col-md">
-				<a href="https://www.uak.gov.tr/" target="_blank">
-				    <img src="https://gitlab.com/bynuco/akdenizz/-/raw/master/uak.jpg" class="img-fluid img-thumbnail"
-					 alt="Üniversitelerarası Kurul Başkanlığı">
-				</a>
-                    	</div>
 			
 			<div class="col-md">
 				<a href="https://www.ilan.gov.tr/" target="_blank">
